@@ -4,7 +4,7 @@
     text-align: center;
 }
 
-#submit {
+#submit, #correct {
     width: 100px;
     margin: 0 auto;
 }
@@ -14,4 +14,8 @@
     background: purple;
     width: 0;
     color: white;
+}
+
+.flash {
+    
 }
