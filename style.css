@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#submit {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.bar {
+    height: 30px;
+    background: purple;
+    width: 0;
+    color: white;
+}
