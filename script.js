@@ -7,7 +7,6 @@ var answer = document.getElementById("answer");
 var leftArrow = document.getElementById("left");
 var rightArrow = document.getElementById("right");
 var bar = document.getElementsByClassName("bar")[0];
-var correct = document.getElementById("correct");
 var points = document.getElementById("points");
 
 var currentPoints = 0;
@@ -102,15 +101,6 @@ function correctStorage() {
     }
 
 }
-
-correct.addEventListener("click", function () {
-    correctStorage();
-    increaseCounter();
-    removeAnswer();
-    removeYourAnswer();
-    barWidth();
-
-})
 
 /// showing only the question you dont know
 
