@@ -125,8 +125,20 @@ var budzetiranjeIKontrola = [
     ["povezanost planiranja i kontrole", "planiranje podrazumeva definisanje ciljeva i nacina njihovog ostvarenja, kontrola treba da omoguci uskladjivanje ostvarenja sa planiranim ciljevima. treba ih sprovoditi zajedno"],
     ["Kontrola zasnovana na statickom vs fleskibilnom budzetu", "moze biti zasnovana na 1.statickim 2. i statickim i fleskibilnim"],
     ["menadzment putem izuzetaka", "definisanje stepena tolerancije u vezi sa odstupanjima koja se odnose na svaku poziciju u budzetu, ako je odstupanje ispod praga tolerancije onda se zanemaruje, ako je vise onda se analizira"],
-    [""]
+    ["razlaganje planiranih prodajnih ostvarenja", "1. odstupanje po osnovu cena, 2. odstupanje po osnovu promena u kolicinaama 3. odstuapnje po onsovu promena u asortimanu"],
+    ["odvajanje odstupanja po osnovu promene cena i po osnovu promene u kolicinama", "odgovornost se deli, 1. cena - marketing menadzeri, 2. kolicina - menadzeri prodaje"],
+    ["odvajanje odstupanja po osnovu promena u kolicinama od ostalih odstupanja", "dva razloga, 1. ostvarna prodaja utice na visinu prihoda..., 2. odgovornost snose menadzeri prodaje"],
+    ["obracun odstupanja po osnovu promena u strukturi asortimana od ostalih odstupanja", "u preduzecima koja imaju veci broj proizvoda.."],
+    ["merenje efekata odstupanja", "2 nacina, 1. merenje efekata odstupanja u odnosu na prihode, 2. u odnosu na kontribucioni rezultat"],
+    ["kako se mogu rasloziti odstupanja stvarnih od planiranih direktnih troskova", "1. po osnovu promene nabavne cene inputa, 2. promene efikasnosti u potrosnji inputa"],
+    ["moguci uzroci pozitivnih odstupanja u troskovima dir materijala po osnovu promene nabavnih cena materijala", "1. iznenadni pad cena, 2. kolicinski popusti, 3. jeftiniji mat losijeg kvaliteta, 4. pogresne projekcije cena"],
+    ["moguci uzroci negativnih odstupanja u troskovima dir materijala po osnovu promene nabavnih cena materijala", "1. povecanje cena, 2. nepovoljni ugovori, 3. los izbor dobavljaca"],
+    ["moguci uzroci odstupanja u troskovima dir rada po osnovu promene cena rada", "1. promena politike plata, 2. pregovori sa sindikatima, "],
+    ["moguci uzroci negativnih odstupanja u troskovima dir materijala po osnovu promene efikasnosti u potrosnji inputa", "1. neadekvatno rukovanje materijalom, 2. nabavka materijala loseg kvaliteta, 3.kradja materijala, 4. promena metode proizvodnje"],
+    ["moguci uzroci negativnih odstupanja u troskovima dir rada po osnovu promene efikasnosti", "1. neadekvatno obucena radna snaga, 2. los raspored rada po operacijama, 3. neadekvatno odrzavanje masina, 4. pogresne projekcije vremenskih standarda"]
 ]
+
+
 questions.forEach(function (el, ind) {
     el.push(ind)
 })
