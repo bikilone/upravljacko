@@ -8,6 +8,7 @@ var leftArrow = document.getElementById("left");
 var rightArrow = document.getElementById("right");
 var bar = document.getElementsByClassName("bar")[0];
 var points = document.getElementById("points");
+var correct = document.getElementById("correct");
 
 var currentPoints = 0;
 
@@ -46,6 +47,7 @@ rightArrow.addEventListener("click", function () {
     removeAnswer();
     removeYourAnswer();
     barWidth();
+    points.innerHTML = currentPoints + "/" + counter;
 })
 
 /// making question appear ///
@@ -135,8 +137,19 @@ document.addEventListener("keydown", function (event) {
     /// enter
     if (event.which === 13) {
         showAnswer();
-        isTheAnswerCorrect();
+        // isTheAnswerCorrect();
     }
+})
+
+// manualy setting correct answer
+correct.addEventListener("click", function(){
+    correctStorage();
+    changePoints();
+    increaseCounter();
+    removeAnswer();
+    removeYourAnswer();
+    barWidth();
+    points.innerHTML = currentPoints + "/" + counter;
 })
 
 
