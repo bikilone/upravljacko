@@ -9,6 +9,7 @@ var rightArrow = document.getElementById("right");
 var bar = document.getElementsByClassName("bar")[0];
 var points = document.getElementById("points");
 var correct = document.getElementById("correct");
+var rmStorage = document.getElementById("rmStorage");
 
 var currentPoints = 0;
 
@@ -180,3 +181,7 @@ function changePoints() {
     var num = counter + 1;
     points.innerHTML = currentPoints + "/" + num;
 }
+
+rmStorage.addEventListener("click", function() {
+    localStorage.clear()
+})
