@@ -252,7 +252,21 @@ var uprRAcUNovomPoslOkruzenju = [
     ["troskovi kvaliteta", "upravljanje ukupnim kvalitetom uzorkuje nastanak odredjneih troskova: \n 1. troskvoi prevencije (obuka zposlenih, dobavljaca..) \n 2. tr kontrole \n 3. tr nedostataka koji su otkrivnei u preduzecu pre isporuke kupcima (pnovni rad, tr zastoja pr) \n 4. tr nedostataka koji su otkrivnei nakon isporuke pr kupcima (tr popravki u garantom roku, tr gubitka reputacije)"],
     ["nabroj promene u internom okurzenju", "1. razlicita org resenja \n 2. unapredjnje procesa proizvodnje \n 3. upravljanje ukupnim kvalitetom"],
     ["def strateg upr rac", "nastanak strateg upr rac uslovila je potreba preduzeca da se orijentise na promene u okruzenju a ne samo na internu efikasnost. strat upr rac podrzumeva tzv strategijsko upravljanje perfomransam putem analize ukupnog lanca vrednosti, uz to ono prodrazumeva i primenu brojnih novih upr pristupa kao sto su obracun ciljnih tr, obracun troskova zansovan na aktivnostima, keizen obracun tr"],
-    ["strateg upr performansama", "dovodi do primene koncepta ukpunog lanca, analiza ukupnog lanca vresnoti podrazumeva: \n 1. analiza tr koji nasatju u samom preduzecu \n \t 1. prec procesa prozivodnje (tr istrazivanja i razvoja, dizajna), \n \t 2. u rpocsu prodjae \n \t 3. nakon proizovdnje \n 2. analizu mogucnosti za smanjenje trosvkoa u sradnji sa : \n \t 1. dobavljacima - povecanje kvalitetat inputa \n \t 2. kupcima"]
+    ["strateg upr performansama", "dovodi do primene koncepta ukpunog lanca, analiza ukupnog lanca vresnoti podrazumeva: \n 1. analiza tr koji nasatju u samom preduzecu \n \t 1. prec procesa prozivodnje (tr istrazivanja i razvoja, dizajna), \n \t 2. u rpocsu prodjae \n \t 3. nakon proizovdnje \n 2. analizu mogucnosti za smanjenje trosvkoa u sradnji sa : \n \t 1. dobavljacima - povecanje kvalitetat inputa \n \t 2. kupcima"],
+    ["strategijske rac tehnike", "1. obracun ciljnih tr \n 2. obracu tr zasnovan na aktivnostima \n 3. obracun tr kvaliteta \n 4. obracun tr zivotnog cilkusa pr \n 5. keizen obracun tr \n 6. integrisano upravljnaje"]
+]
+
+var finIzvestavanje = [
+    ["koje su aktivnosti men", "1. polaganje racuna o stnaju i uspehu, \n 2. sistemska upravljacka kontrola, \n 3. donosenje odluka"],
+    ["sadrzinu upr cine: ", "1. analiza fin izvestaja, \n 2. rac troskova (punih trkoskova), \n 3. rac odgovornosti - kontrolabilni tr, \n 4. rac odlucivanja - diferencijalni tr"],
+    ["karakteristike internog polaganja racuna", "1. nizi nivo men polaze racune visim novima men \n 2. nije regulisano zakonom \n 3. realizuje se kroz prezenotvanje internih izvestaja koji se sastavljaju i prezentuju jendom nedelno, mesecno, kvartalno.. "],
+    ["interni izvestaji mogu biti", "1. interni bilans uspeha, \n 2. interni bilans stanja, \n 3. pregledi odgovarajucih, pazljivo odabranih, pokazatelja performansi"],
+    ["Sta je eksterno polaganje racuna o stanju i uspehu(fin izvestavanje)", "obavezna aktivnost men koja podrazumefa pripreamnje i prezenotvanje zvanicnih fin izvestaja u zakonom predvidjenim intervalima, sa osnovnim ciljem da se eksternim korisnicima kao sto akcionari, kreditori, dobavljaci, konkurenti .. obezbede adekvatne info potrbene za donosenje odluka"],
+    ["znacaj fin izvestavanja", "raste sa pojavom korporativnih preduzeca i razvojem trz kapitala, sto je dovelo do profesionalizacije upravljanja i disprerzije vlasnistva na veliki br akcionara"],
+    ["osnovni fin izvestaji su: ", "1. bilans uspeha \n 2. bilans stanja \n 3. izvestaj o novcanim tokovima \n 4. izvestaj o promenama na kapitalu \n 5. napomene uz fin izvestaje"],
+    ["karakteristike fin izvestavanja", "1. obavezna aktivnost men, \n 2. fin izvestaji imaju javni karakter \n 3. pripreamnje i prezentovnaje fin izvestaja je regulisano zakonima i rac stand, \n 4. vrsi se najcesce na godinsnjem nivou ali moze i polugodisnje i kvartalno, \n 5. u nadleznosti fin rac, \n 6. podlezu eksternoj reviziji \n 7. osnovni cilj je zastita intersea stejholdera krzo pruzanje info "],
+    ["kar fin rac ", "1. pruza istorijske info, \n 2. pruza obj info \n 3. pasivno je \n 4. zatvoreno \n 5. staticno"],
+    ["informacioni intersei korisnika fin izvetsaja"]
 ]
 
 questions =fixingSpaces(uprRAcUNovomPoslOkruzenju);
