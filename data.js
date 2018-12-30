@@ -1434,7 +1434,80 @@ var racioAnalizaObrta = [
     "definisanje obrta",
     "obrt predstavlja odnos izmedju planiranih ili ostvarenih efekata i planiranih ili ostvarenih ulaganja kapitala. U osnovi analize obrta nalazi se poredjenje planiranih ili ostvarenih ulaganja kapitala i planiranih ili ostvarenih efekata koji su proizasli iz tih ulaganja"
   ],
-  [""]
+  [
+    "tumacenje obta i efekata obrta",
+    "Tumacenje obrta zavisi od vrste imoivne koja je predmet analize obrta. To znaci da se razlicito tumace obrt i efekti ukupne stalne imovine s jedne strane, i obrt i efekti obrtne s druge strane. Razlicito tumacenje uslovljeno je razlicitim karakterom stalne i obrtne imovine"
+  ],
+  [
+    "Tumacenje obrta i efekata obrta ukupne i stalne imovine",
+    "Osnovni efekat obrta ukupne i stalne imovine je prihod od prodaje. Stalna imovina je u duzem vremenskom periodu vezana za preduzece i postepeno se konvertuje u gotovinu u periodu duzem od jedne godine pernoseci svoju vr na proizovode preko amortizacije. Zbog toga se njen obt ne sme tumaciti kao njena sposobnost da generise gotovinu, vec se mora tumaciti kao njena prihodna sposobnost"
+  ],
+  [
+    "Tumacenja obrta i efekata obrta imovine i njenih delova",
+    "U osnovi analize obrta obrtne imovine se nalazi analiza konvezije obrtne imovine u gotovinu. Obrtna imovina se konvertuje u gotovinu u perodu do jedne godine. Zbog toga se njen obrt moze tumaciti kao brzina njene konverzije u gotovinu, a kao efekat obrta gotovina."
+  ],
+  [
+    "Analiza obrta - centralni deo racio analize",
+    "analiza obrta predstavlja centralni deo racio analize, zato sto obrt utice na likvidnost, na solventnost i na profitabilnost. Kaze se da obrt predstavlja mocnu upravljacku polugu za unapredjneje likvidnosti, solvenstnosti i profitabilnosti."
+  ],
+  [
+    "Uticaj obrta na likvidnost",
+    "Sto je brzi obrt imovine preduzeca, tj. sto preduzece efikasnije upravlja svoojom imovinom to se ona brze konvertuje u gotovinu koja se jednim delom moze koristiti za izmirivanje kratkorocnih obaveza, a sto se pozitivno odrazava na livkdinost. Na likvidnost pred najvise utice obrt obrne imvoine"
+  ],
+  [
+    "Uticaj obrta na solventnost",
+    "utice na 2 nacina: \n 1. ... ta gotovina se moze koristiti i za izmirivanje dugornih obaveza i njima pripadajucih kamata, sto se pozitivno odrazava na solventnost, \n 2. sto je brzi obrt imovine, to znaci manji iznos angazovane imovine, a sto utice na manje potrebe za zaduzivanjem i pozitivno se odrazava na solventnost. Na solventnost pred, pre svega utice obrt obrtne imovine i obrt fiksne imovine"
+  ],
+  [
+    "Uticaj obrta na profitabilnost",
+    "obrt ukupne imovine i obrt vlasnickog kapitala predstavlja multiplikator profitabilnosti. na prof pre svega utice obrt ukupne im i obrt vl kapitala"
+  ],
+  [
+    "definisanje racia obrta ukupne poslovne imovine",
+    "prihodi od prodaje na eksternom i internom trzistu / prosecna ukupna poslovna imovina"
+  ],
+  [
+    "definisanje vreme obrta ukupne poslovne imovine",
+    "365 / racio obrta ukupne poslovne imovine"
+  ],
+  [
+    "Uputstvo za komentarisanje svih racia obrta",
+    "1. prvi deo je teorijski, \n 2. tumace se konkretne vrednosti racia \n 3. naglasiti da su zakljucci o obrtu preliminarni. U slucaju nekih racia ovaj deo komentara nije potreban"
+  ],
+  [
+    "Prvi deo komentara racia obrta ukupne poslovne imoivine",
+    "Pokazuje efikasnost upravljanja imovinom u preduzecu, odnosno pokazuje koliko dinara prihoda od prodaje prosecno tokom godine generise svaki dinar ulozen u imovinu preduzeca. Sta stanovnistva likivdnosti, solventnosti i profitabilnosti pozleno je da vrednosti ovog racia budu sto vece. Veca efikasnost upravljanja imovinom podrazumeva oslobadjannje gotovine iz poslovnog procesa, sto olaksava otplatu kratkorocnih i dugorocnih obaveza i pozitivno utice na likvidnost i solventnost. Obrt imovine predstavlja multiplikator profitabilnosti ukupne imovine, pa brzi obrt znaci i vecu profitabilnost"
+  ],
+  [
+    "Treci deo komentara racia obrta ukupne poslovne imovine",
+    "Zakljucci o efikasnosti upravljanja imovinom nisu konacni, potrebno je jos proveriti obrt fiksne imovine, obrtne imovine i njenih delova"
+  ],
+  [
+    "definisanje racia obrta vl kapitala",
+    "prihodi od prodaje na eksternom i internom trz / prosecan vl kapital"
+  ],
+  [
+    "prvi deo komentara racia obrta vl kapitala",
+    "pokazuje efikasnost upotrebe vl kapitala kao izvora fin imovine preduzeca, odnosno pokazuje koliko dinara prihoda od prodaje u proseku tokom godine produkuje svaki dinar ulozen u imovinu preduzeca iz vlasnickih izvora finansiranja. Sa stanovnistva likv, solv i pogotovo prof pozeljno je da vr ovog racia bude sto veca"
+  ],
+  ["treci deo komentara racia obrta vl kapitala", "nije potreban"],
+  [
+    "Odnos izmedju racia obrta ukupne imovine i raca obrta vlasnkcog kapitala",
+    "Prethodna dva raca se cesto porede, pri cemu racio obrta vlasnkocg kapitala je prirodno veci od racia obrta ukpune posl imovine. Sto je veci deo imovine finansiran pozajmljenim izvorima, odnosno sto je manje ucesce vl kapitala, racio obrta vl kapitala bice veci od racia obrta ukpune imovine. Ova dva racia bi bila jednaka ukoliko ne bi bilo obaveza."
+  ],
+  [
+    "definisanje racia obrta fiksne imovine",
+    " prihodi od prodaje na ekst i internom trz / prosecn fiksna imovina"
+  ],
+  [
+    "faktori koji uticu na vrednost racia obrta fiksne imovine",
+    "1. faza zivotnog ciklusa proizvoda (ili citavog preduzeca) \n \t 1. u fazi uvodjenja vrednost racia je niska zbog male prodaje i prihoda, \n \t 2. u fazi rasta dolazi do rasta prodaje i prihoda, sve dok ne dodje do pune iskoriscenosti kapaciteta, \n \t 3. u fazi zrelosti - prodaja i prihodi dostizu maksimum kao i vrednost ovog racia, \n \t 4. u fazi opadanja dolazi do pada traznje i prihoda, a samim tim i do opadanja racia \n 2. vremenski trenutak pribavljanja sredstava \n \t 1. uticaj amortizacije na vrednost racia - preduzece koje je ranije nabavilo fiksnu imovinu veci iznos imovine ce otpisati. pa ce racio biti veci. \n \t 2. uticaj inflacije na vrednost racia - .. kasnije nabavilo fiksnu imovinu platice za nju vecu cenu zbog inflacije i samim tim imace manju vrednost ovog racia. \n 3. metod nabaveke fiksne imovine - kupovina na kredit ili putem fin lizinga ona se evidentira u bilansu stanja po nabavnoj vrednosti. A operativni lizing se ne evidentira u bilasnu stanja iako ucestvuje u stvaranju prihoda. To moze dovesti do preuvelicanih vrednosti racia."
+  ],
+  [
+    "Prvi deo komentara racia obrta fiksne imovine",
+    "pokazuje efikasnost upravljanja fiksnom imovinom preduzeca, odnosno pokazuje koliko dinara prihoda od prodaje u proseku tokom godine generise svaki dinar ulozen u osnovna sredstva preduzeca. Sa stanovnistva likv, solv i prof pozljeno je da njegova vrednost bude sto veca"
+  ],
+  ["treci deo komentara racia obrta fiksne imovine", "nije potreban"]
 ];
 
 questions = fixingSpaces(finIzvestavanje);
