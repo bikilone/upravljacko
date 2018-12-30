@@ -1251,6 +1251,192 @@ var finIzvestavanje = [
   ]
 ];
 
+var racioAnalizaUvod = [
+  [
+    "Koje grupe racia postoje?",
+    "1. racio analiza solventnosti, \n 2. racion analiza likvidnosti \n 3. racio analiza obrta \n 4. racio analiza profitabilnosti"
+  ],
+  [
+    "koje su faze racio analize",
+    "1. izvbor racia \n 2. obracun vrednosti racia \n 3. povezivanje, poredjenje i tumacenje racia"
+  ],
+  [
+    "prilikom izbora racia treba obratiti paznju na sledece",
+    "1. verodostojnost racia \n 2. konzistentna primena odredjene definicije izbranog racija"
+  ],
+  [
+    "vertikalna pravila finansiranja",
+    "definisu pozeljne relacijae, pre svega izmedju delova pasive i postoje dva: \n 1. zlatno pravilo za izravnanje rizika - odnos vlasnickog i pozajmljenog kapitala je najmanje 1:1, \n 2. pravilo za odnos izmedju dugorocnog i kratkorocnog kapitala - odnose izmedju dugorocnog i kratkorocnog kapitala treba da bude uskladjeno sa odnosom izmedju stalne i obrtne imovine"
+  ],
+  [
+    "horizontalna pravvila finiansiranja",
+    " definisu pozeljne relacije izmedju pojedinih delova imovine i kapitala i sastoje se od dve grupe pravila : \n pravila koja definisu pozeljne relacije izmedju dugorocne imovine i dugoroncog kapitala, \n 2. definisu pozeljne odnose izmedju obrtne imovine i kratkorocnih obaveza"
+  ],
+  [
+    "prva grupa horizontalnih pravila fin",
+    "1. zlatno bilansno pravilo u uzem smislu - stalna imovina bude u celosti fin vlasnicikim kapitlaom (da postoji snok) \n 2. zlatno bilansno pravilo u sirem smislu - celokupna dugornocno vezana imovina (uklucuje i gvozdene zalihe) preduzeca bude finansirana dugorocnim kapitalom"
+  ],
+  [
+    "druga grupa horizontalnih pravila fin",
+    "bankarsko pravilo finansiranja - odnos izmedju obrtne imovine i kratkorocnih obaveza najmanje 2:1 \n 2. acid (kiseli) test - odnos izmedju monetarne imovine i kratkorocnih obaveza da bude 1:1, pri cemu je pozeljno da monterana imovina bude sto veca od kratkorocnih obaveza"
+  ],
+  [
+    "sta je monetarna imovina",
+    "1. kratkoronca potrazivanja, \n 2. gotovina i gotovniski ekvivalenti"
+  ],
+  ["sta je realna imovina", "1. stalna imovina, \n 2. zalihe \n 3. avr"]
+];
+
+//////////////////////////////////////////
+//////////////////////////////////////////
+
+var racioAnalizaLikvidnosti = [
+  [
+    "definisanje likvidnosti preduzeca",
+    "siri pojam od livkidnosti imovine, da bi bilo likvidno mora posedovati livkvidnu imovinu, medjutim to je potreban ali ne i dovoljan uslov za livk preduzeca, pored toga potrebno je jos: \n 1. da likv imovina bude veca od kratk obaveza, \n 2. tempo konverzije obrtne imovine u gotovinu bude uskladjen sa temopom dospeca kratkorocnih obaveza"
+  ],
+  [
+    "da li je likvidnost preduzeca statican ili dinamican fenomen",
+    "pre svega dinamican, ne statican. Dometi staticke analize likv su ogranice - mogu utvrditi samo dobre ili lose pretpostavke za ocuvanje likvidnosti, dok se konacna ocena likvidnosti preduzeca moze dati samo na osnovu dinamicke analize likvdinosti (uskladjenost novcanih tokova)"
+  ],
+  [
+    "racio tekuce (opste) livkidnosti",
+    "obrtna imovina + avr / kratkorocne obaveze + pvr - naziva se jos i bankarski racio"
+  ],
+  [
+    "uputstvo za komentarisanje svih racia likvidnosti",
+    "1. teorisjki, uvek je isti nezavisno od konkretne vrednosti racia, 2. tumace se konkretne vrednosti racia, u sustini predstavlja prakticnu primenu teorijskog objasnjenja racia iz prvog dela komentara, \n 3. treba naglasiti da su zakljucci o livkidnosti preduzeca preliminarni. ovaj deo komentara je uvek isti"
+  ],
+  [
+    "prvi deo komentara racia opste likvidnosti",
+    "Racio tekuce likvidnosti pokazuje sa koliko dinara obrtne imoivne je pokriven svaki dinar kratkorocnih obaveza preduzeca krajem godine. Sto je iznos tog pokrica veci, nok je veci, a samim tim i kvalitet fin stukture je bolji kao i pretpostavke za likvidnost. S obzirom da se u pozadini ovog racia nalazi bankarsko pravilo fin, njegova orijentaciona normala je 2. Pozeljne su one vrednosti ovog racia vece od 2. One ukazuju da je prisutan NOK, da je fin struktura dobra kao i pretpostavke za ocuvanje livkdisnoti preduzeca. Sa druge strane vrednosti ovog racia"
+  ],
+  [
+    "racio tekuce likvidnosti i nok vs likvidnost preduzeca",
+    "racio tekuce likvidnosti omogucava utvrdjivanje samo pretpostavki za ocuvanje likvidnosti preduzeca. I pored visokih vrednosti ovog racia preduzece moze biti nelikvidno. Visoke vrednosti ovog racia mogu biti posledica nagolimalinih zaliha gotovih proizvoda koje se nmg prodati ili visokih potrazivanja koja se nmg naplatiti. Ukoliko preduzece efikasno upravlja zalihama i brzo naplacuje svoja potrazivanja ono moze biti likvidno i pored niskih vrednosti racia i noka"
+  ],
+  [
+    "definisanje raci redukova likvidnosti",
+    "monterna imovina / kratkorocne obaveze + pvr"
+  ],
+  [
+    "zasto se zalihe ne nalaze u brojiocu racia redukovane likvidnosti",
+    "one su najmanje likvidni deo obrtne imovine i u okviru zaliha se nalaze gvozdene zalihe koje ukljucuju odgovarajuci iznos zlaiha materijala koje su potrebne za odrzavanje kontinuiteta proizvodnje i odg iznos zaliha gotovih proizvoda koje su potrebne za odrzavanje kontinuiteta prodaje"
+  ],
+  [
+    "prvi deo komentara racia redukovane likvidnosti",
+    "Racio red likv pokazuje sa koliko dinara monterne imovine je pokriven svaki dinar kratkorocnih obaveza poreduzeca krajem godine. Sto je iznos ovog raca veci, veci je nok, kvalitet fin strukture je bolji kao i pretpostavke za likvidnost. Ovaj racio se zasniva na kiselom testu likvidnosti, u skladu sa tim njegova orijentaciona normala je 1. Pozeljne vr ovog raca su one vece od 1 i one ukazuju na visok nok, dobar kvalitet fin strukuture i dobre pretpostavke za oucvanje likv. Suprotno tome, vr racia manje od 1, ukazuju na slabiji kvalitet fin strukture i slabije pretpostavke za ocuvanje likvidnosti, medjutim to i dalje ne znaci da ce preduzece imati probleme za likvidnoscu, posto nok i dalje moze biti prisutan"
+  ],
+  [
+    "definisanje racia likv na osnou neto novcanog toka iz poslovanja",
+    "nnt iz poslovanja / prosecne kratkorocne obaveze i pvr"
+  ],
+  [
+    "prvi deo komentara racia likv na osnovu neto novcanog toka iz poslovanja",
+    "Ovaj racio pokazuje sa koliko dinara oslobodjenog viska gotovine iz poslovanja je pokriven svaki dinar kratkorocnih obaveza preduzeca tokom godine. Sto je iznos tog pokrica veci, pretpostavke za likv su bolje. Orijentaciona normala 0,4. Pozeljne vrednosti racia su one iznad 0,4 i ukazuju na dobre pretpostavke za ocuvanje likvidnosti u buducnosti."
+  ],
+  [
+    "Faktori koji uticu na solventnost preduzeca",
+    "1. Vrednost i sturkutra imovine, \n 2. vrednost i struktura izovra finansiranja, \n 3. Profitabilnost"
+  ],
+  [
+    "kako vrednost i struktura imovine uticu na solventnost",
+    "1. imovina prestavlja generator novcanih tokova iz kojih se isplacuju dugorocne obaveze i kamate, \n 2. strukutra imovine i nacin na koji je imovina finansiraa - najrizicinija dug imovina treba da bude u potpunosti finansirana vlasnickim kapitalom, \n 3. imovina (ili njeni delovi) mogu se koristiti kao zaloga prilikom uzimanja novih dugorocnih kredita"
+  ],
+  [
+    "kako vrednost i strukutra izvora finansiranja uticu na solventnost",
+    "u skladu sa tzv zlatnim bilansinm praviloma za izravnanje rizika, odnos izmedju vlasnickog i pozajmljenog kapitala trebalo bi da bude najmanje 1:1. Dugo se smatralo da je visina vlasnickog kapitala, odnosno njegovo dominantno ucesce u pasivi glavni faktor solventnosti"
+  ],
+  [
+    "kako profitabilnost utice na solventnost",
+    "prema modernim shvatanjima profitabilnost predstavlja najznacajniji faktor solventnosti preduzeca, zato sto u strukturi fin modernih preduzeca cesto ima vise obaveza od vlasnickog kapitala. Visina vlasnikcog kapitala je i dalje znacajna, pa tkoa ako poredimo dva preduzeca sa istom profitabilnoscu sovlentinjie ce bti preduzeca sa vecim ucescem vl kapitala"
+  ],
+  ["kako se jos nazivaju racio solventnosti", "racia fin leverizda"],
+  [
+    "kako se dele racia solventnosti",
+    "1. prva grupa koja pokazuje kvalitet fin strukture preduzeca, \n 2. druga grupa koja proverava nivo zaduzenosti preduzeca"
+  ],
+  [
+    "definisanje racia porkirca stalne imovine",
+    "vlasnicki kapital / stalna imovina"
+  ],
+  [
+    "prvi deo komentara racia pokrica stalne imovine",
+    "Ovaj racio pokazuje sa koliko dinara vlasnickog kapitala je pokriven svaki dinar stalne imovine preduzeca krajem godine. Sto je iznos tog porkica veci, snok je veci, fin struktura je bolja, fin rizici kojima je izlozeno preduzeca su manji, a pretpostavke za solventnost su bolje. S obzirom na to da se u pozadini ovog racia nalazi zlatno bilansno pravilo u uzem smislu, njegova orijentaciona normala je 1. Pozeljne vrednosti racia su one vece od 1, i one ukazuju na postojanje snoka, dobru fin strukturu, relativno male fin rizike s kojima se preduzece suocava i dobre pretpostavke za solventnost. Ako su vrednosti racia manje od 1, preduzece nema snok, ali i dalje moze imati nok, sto znaci da njegova fin struktura i dalje moze biti dobra kao i pretpostavke za solventnost. Konacno preduzece moze biti profitabilno, sto je prema modernim shvatanjima glavni faktor solventnosti."
+  ],
+  [
+    "definisanje racia pokrica realne imovine",
+    " dugorocni kapital / realna imovina"
+  ],
+  [
+    "prvi deo komentara racia pokrica stalne imovine",
+    "Ovaj racio pokazuje sa koliko dugorocnog kapitala je pokriven svaki dinar realne imovine preduzeca krajem godine. Sto je iznos tog pokrica veci, veci je nok, kvlaitet fin stukture je bolji, fin rizici s kojima se suocava preduzece su manji, a pretpostavke za sovlentnost su bolje. S obzirom na to da se u pozadini ovog racia nalazi zlatno bilansno pravilo u sirem smislu, njegova orijentacciona normala je 1. Pozeljne vrednosti ovog racia su one vece od 1 i one ukazuju na postojanje visokog noka, dobru fin strukuru, male fin rizike s kojima se preduze suocava i u skladu sa tim na dobre pretpostavke za solventnost. Ukoliko su vrednosti racia manje od 1, i dalje moze postojati nok, samo je on manji nego u prethodnom slucaju, a pretpostavke za solventnost nesto slabije."
+  ],
+  ["definisanje racia pokrica zaliha nokom", " nok / zalihe + avr * 100"],
+  [
+    "definisanje racia pokrica obrtne imovine nokom",
+    "nok / obrtna imovina + avr"
+  ],
+  [
+    "prvi deo komentara racia pokrica zaliha nokom/ racio prokica obrtne imovine nokom",
+    "pokazuje sa koliko dinara dugorocnog kapital je pokriven svaki dinar zaliha/obrnte imovine krajem godine. Sto je iznos tog pokrica vec i nok je veci, a fin stukutra preduzeca je bolja, fin rizici sa kojima se pred suocava su manji a pretpostavke za ocuvanje solventnosti preduzeca su bolje. Ova dva racia nemaju orijetnacionu normalu, zato sto je i visina noka individualno uslovljna. Ipak pozeljno je da vrednosti ovih pokazatelja budu sto vece i da rastu iz godine u godinu, sto je siguran znak da se fin strukutura preduzeca popravlja, kao i pretpostavke za solventnost"
+  ],
+  ["definisanje racia zaduzenosti", "ukupne obaveze / vlasnicki kapital"],
+  [
+    "prvi deo komentara racia zaduzenosti",
+    "Ovaj racio pokazuje sa koliko dinara ukupnih obaveza je opterecn svaki dinar vlasnickog kapitala na kraju godine. Sto je iznos tog opterecenja veci, zaduzenost preduzeca preduzeca je veca, veci su fin rizici s kojima se suocava preduzece, a pretpostavke za solventnost su losije. S obzirom na to da se ovaj racio zasniva na zlatnom pravilu za izravnanje rizika, njegova orijetnaciona normala je 1. Pozeljne vrednosti ovog racia su one mnaje od 1, one ukazuju da vlasnicki kapital dominira u pasivi, ondosno da je veci od obaveza i da je u skladu sa tim zaduzenost preduzeca relativno niska, fin riici s kojima se preduzece suocava mali, a pretpostavke za solventnost dobre. Ukoliko su vrednosti racia vece od 1, vlasnicki kapital je manji od obaveza, zaduzenost je relativno visoka, odatle sledi da je preduzece izlozeno vecim fin rizicima i da su njegove pretpostavke za solventnost slabije. Medjutim visoke vrednosti ovog raca ne znace da ce preduzece nuzno biti nesolventno, s obzirom na to da je profitabilnost, prema modrenim shvatanjima, glavni faktor solventnosti. Takodje, ovaj racio pokazuje i mogucnost preduzeca da se dodatno zaduzuje. Ako su njegove vrednosti manje od 1, preduzece ima prostor za dodatno zaduzivanje."
+  ],
+  [
+    "Zaduzenost vs prezaduzenost preduzeca",
+    "Smatra se da je preduzece relativno viosko zaduzeno ukoliko su vrednosti racia zaduzenosti veci od 1,  ali cak i ako su vrednosti ovog racia daleko vece od 1, npr 5 ili 6, ne sme se trvridit da je preduzece prezaduzeno. Visoke vrednosti racia zaduzenosit ukazuju na visoku zaduzenost ali ne i na prezaduzenost preduzeca. Preduzece nije prezaduzeno sve dok ima vlasncki kapital, bez obrzira koliko on bio mali u odnosu na ukupne obaveze. U slucaju prezaduzenih preduzeca, celokupan vl kapital je pojeden gubicima, prisutan je tzv gubitak iznad vl kapitala, a imovina je manja od obaveza. Gubici od visine vlasnickog kapitala smanjuju vl kapital. U trenutku kada gubici svedu vl kapital na nulu i idu preko vl kapitala oni se moraju evidentirati u aktivi. Takav gubitak naziva se gubitak iznad vl kapitala. Prezaduzena preduzeca su izuzetno nesolventna"
+  ],
+  [
+    "definisanje racia pokrica obaveza nnt iz poslovanja",
+    "nnt iz poslovanja / prosecne ukupne obaveze"
+  ],
+  [
+    "Prvi deo komentara racia pokrica obaveza nnt iz poslovanja",
+    "Ovaj racio pokazuje sa koliko dinara oslobodjenog viska gotovina iz poslovanja je pokriven svaki dinar ukupnih obaveza preduzeca tokom godine. Sto je iznos ovog pokrica veci, fin riziic s kojima se pred suocava su manji, a pretpostavke za ocuvanje solventnosti su bolje. Orijentaciona normala ovog raca je definisana na osnovu iskustva i iznosi 0,2 ili 20%. Pozeljne vrednosti ovog racia su one iznad 0,20 i one ukazuju na nisku zaduzenost, postojanje malih fin rizika i dobre pretpostavke za solventnost. Vrednosti racia manje od 0,20 ukazuju na dosta visoku zaduzenost, vec fin rizike kojima je pred izlozeno i losije pretpostavke za solventnost"
+  ],
+  [
+    "definisanje mogucnosti vracanja dugova",
+    "prosecne ukupne obaveze / nnt iz poslovnja"
+  ],
+  [
+    "Prvi deo komentara mogucnosti vracanja dugova",
+    "Pokazuje koliko je godina preduzecu potrebno da sve svoje obaveze izmiri iz oslobodjenog viska gotovine iz poslovanja. Orijentaciona normala ovog raca iznosi 5 godina. Pozeljne vrednosti su one ispod 5 godina, i one ukazuju na nisku zaduzenost, postanje malih fin rizika kojima je preduzeca izlozeno i dobre pretpostavke za solventnost. Vrednosti racia iznad 5 godina ukazuju na dosta visoku zaduzenost, vece fin rizike kojima je pred izlozeno i losije pretpostavke za solventnost"
+  ],
+  ["Definisanje racia pokrica kamata zaradom", "ebit / troskovi kamata"],
+  ["Sta je ebit", "neto dobitak posle poreza + tr kamata + porez na dobitak"],
+  [
+    "Prvi deo komentara racia pokrica kamata zaradom",
+    "Ovaj racio pokazuje koliko puta je zarada pre kamata i poreza veca od rashoda kamata. Sto je vrednost racia veca, fin rizici s kojima se suocava preduzece su manji, pa su i pretpostavke za ocuvanje solventnosti bolje. Orijentaciona normala ovog racia cini raspon od 5 do 7 puta. Pozeljne vrednosti ovog racia krecu se u ovom rasponu ili iznad njega. One ukazuju na dobre pretpostavke za ocuvanje solventnosti. Ovaj racio posredno meri i zaduzenost preduzeca. Sto je pred zaduzenije, vrednost ovog raca je uglavnom manja, zato sto su troskovi kamata uglavnom veci"
+  ],
+  [
+    "definisanje racia porkica kamata nnt iz poslovanja",
+    "nnt iz poslovanja / placene kamate = troskovi kamata"
+  ],
+  [
+    "Prvi deo komentara racia pokrica kamata nnt iz poslovanja",
+    "pokzauje koliko puta je nnt iz poslovnaja veci od placenih kamata. Sto su vece vrednosti ovg racia, fin rizi... a pretpostavke za solvenstnost bolje. Visoke vr ovog racia najcesce ukazuju na nisku zaduzenost pred i samim tim na mogucnost za dodatno zaduzivanje. Ovaj racio nema orijentacionu normalu, sto otezava njegovo tumacenja. Kao priblizna orijentaciona normala moze se koristiti orijentaciona normala od 5"
+  ],
+  [
+    "Treci deo komentara racia solventnosti",
+    "Na kraju treba reci da ovo jos uvek nisu konacni zakljucci o solventnosti preduzeca. Za njihovo donosenje potrebno je ispitati profitabilnosti preduzeca, koja prema modernim shvatanjima predstavlja kljucni faktor koji utice na solventnost."
+  ]
+];
+
+////////////////////////////
+///////////////////////////
+
+var racioAnalizaObrta = [
+  [
+    "definisanje obrta",
+    "obrt predstavlja odnos izmedju planiranih ili ostvarenih efekata i planiranih ili ostvarenih ulaganja kapitala. U osnovi analize obrta nalazi se poredjenje planiranih ili ostvarenih ulaganja kapitala i planiranih ili ostvarenih efekata koji su proizasli iz tih ulaganja"
+  ],
+  [""]
+];
+
 questions = fixingSpaces(finIzvestavanje);
 
 questions.forEach(function(el, ind) {
