@@ -1507,10 +1507,104 @@ var racioAnalizaObrta = [
     "Prvi deo komentara racia obrta fiksne imovine",
     "pokazuje efikasnost upravljanja fiksnom imovinom preduzeca, odnosno pokazuje koliko dinara prihoda od prodaje u proseku tokom godine generise svaki dinar ulozen u osnovna sredstva preduzeca. Sa stanovnistva likv, solv i prof pozljeno je da njegova vrednost bude sto veca"
   ],
-  ["treci deo komentara racia obrta fiksne imovine", "nije potreban"]
+  ["treci deo komentara racia obrta fiksne imovine", "nije potreban"],
+  [
+    "definisanje racia obtrta obrtne imovine",
+    "prihodi od prodaje robe na eksternom i internom trz / prosecna obrtna imovina i avr"
+  ],
+  [
+    "definisanje vreme obrta obrtne imovine",
+    "365 / racio obrta obrtne imovine"
+  ],
+  [
+    "Prvi deo komentara racia obrta obrtne imovine",
+    "... pokazuje efikasnost upravljanja obrtnom imovinom u preduzecu. On pokazuje koliko dinara prihoda od prodaje prosecno tokom godine generise svaki dinar ulozen u obrtnu imovinu preduzeca, tj. pokazuje koliko se puta u proseku u toku godine obrtna imovina obrne kroz prihode od prodaje, a pod pretpostavkom pune naplativosti prihoda i koliko se puta konvertuje u gotovinu. Sa stanovnistva likv, solv i prof, pozeljno je da vrednost ovog raca bude sto veca. Moze se reci da ovaj racio pokazuje broj obrta obrtne imovine tokom godine"
+  ],
+  [
+    "Treci deo komentara racia obrta obrtne imovine",
+    "Zakljucci o efikasnosti upravljanja obrtnom imovinom nisu konacni, za njih je potrebno proveriti jos i obrt zaliha i potrazivanja od kupaca"
+  ],
+  [
+    "definisanje racia obrta zaliha",
+    "prihodi od prodaje na eksternom i internom trzistu / prosecne zalihe i avr"
+  ],
+  ["definisanje vreme obrta zaliha", "365 / racio obrta zaliha"],
+  [
+    "Prvi deo komentara racia obrta zaliha",
+    "... pokazuje efikasnost upravljanja zalihama u preduzecu. On pokazuje koliko dinara prihoda od prodaje prosecno tokom godine generise svaki dinar ulozen u zalihe preduzeca, tj pokazuje koliko se puta u proseku u toku godine zalihe obrnu kroz prihode od prodaje, a pod pretpostavkom pune naplativosti prihoda i koliko se puta u toku godine konvertuju u gotovinu. Sa stanovnistva likv, solv i prof pozeljno je da vrednosti ovog racia budu sto vece"
+  ],
+  [
+    "Treci deo komentara racia obrta zaliha",
+    "Zalkjucci o efikasnosti zalihama nisu konacni, za njihovo donosenje potrebno je proveriti vrednosti tzv parcijalnih pokazatelja obrta zaliha"
+  ],
+  [
+    "definisanje racia obrta materijala",
+    "troskovi materijala / prosecna vrednost zaliha materijala"
+  ],
+  [
+    "definisanje racia obrta nedovrsene proizvodnje",
+    "cena kostanja zavrsenih proizovda / prosecna vrednost zaliha nedovrsene proizvodnje"
+  ],
+  [
+    "definisanje racia obrta gotovih proizvoda",
+    "cena kostanja gotovih proizvoda / prosecna vrednost zaliha gotovih proizvoda"
+  ],
+  [
+    "definisanje racia obrta robe",
+    "prihodi od prodaje robe / prosecna vrednost zaliha robe"
+  ],
+  [
+    "definisanje racia obrta potrazivanja od kupaca",
+    "prihodi od prodaje na eksternom trz / prosecna potrazivanja od kupaca"
+  ],
+  [
+    "definisanje racia kreditiranja kupaca",
+    "365 / racio obrta potrazivanja od kupaca"
+  ],
+  [
+    "kakva kreditna politika preduzeca moze biti",
+    "1. vrlo ostra - period naplate potrazivanja do 30 dana \n 2. fleksibilna - period naplate potrazivanja koji je duzi od 30 dana"
+  ],
+  [
+    "Prvi deo komentara racia obrta potrazivanja od kupaca",
+    "... ukazuje na efikasnost naplate potrazivanja od kupaca, odnosno pokazuje koliko puta u proseku u toku godine preduzece naplati svoja potrazivanja od kupaca. Sa stanovnistva likvidnosti, solv i prof pozeljno je da vrednosti ovog raca budu sto vece"
+  ],
+  ["Treci deo komentara racia obrta potrazivanja od kupaca", "nije potreban"],
+  [
+    "definisanje racia obrta obaveza prema dobavljacima",
+    "ukupne nabavke / prosecne obaveze prema dobavljacima"
+  ],
+  [
+    "sta spada u ukupnu godisnju nabavku",
+    "1. nabavna vr robe \n 2. troskovi direktnog materijala \n 3. tr ostalog materijala \n 4. tr goriva i energije \n 5. tr proizvodnih usluga"
+  ],
+  [
+    "definisanje racia regulisanja obaveza prema dobavljacima",
+    "365 / racio obrta obaveza prema dobavljacima"
+  ],
+  [
+    "Prvi deo komentara racia obrta obaveza prema dobavljacima",
+    ".. pokazuje koliko puta u proseku u toku godine preduzece izmiruje svoje obaveze prema dobavljacima. Sa stanovnistva likv, solv i prof pozeljno je da broj ovih placanja tokom godine bude sto manji, odnosno da vr ovog racia bude sto manja"
+  ],
+  [
+    "Treci deo komentara racia obrta obaveza prema dobavljacima",
+    "nije potreban"
+  ],
+  [
+    "Sta je poslovni ciklus",
+    "predstavlja zbir vremena obrta zaliha i racia kreditiranja kupaca, odnosno to je prosecno vreme koje protekne od nabavke materijala od dobavljaca, do napalte potrazivanja od kupaca. Poslovni ciklus = vreme obrta zaliha + racio kreditiranja kupaca"
+  ],
+  [
+    "Sta je gotovinski ciklus",
+    "predstavlja prosecno vreme tokom koga je gotovina zarobljena u poslovnom procesu preduzeca, odnosno predstavlja razliku izmedju poslovnog ciklusa i racia regulisanja obaveza prema dobavljacima. Gotovinski ciklus = poslovni ciklus - racio regulisanja obaveza prema dobavljacima"
+  ],
+  [
+    "Kakav gotovinski ciklus zeli preduzece",
+    "sto kraci, a najbolje bi bilo da bude negativan"
+  ]
 ];
 
-questions = fixingSpaces(finIzvestavanje);
+var racioAnalizaProfitabilnosti = (questions = fixingSpaces(finIzvestavanje));
 
 questions.forEach(function(el, ind) {
   el.push(ind + 1);
