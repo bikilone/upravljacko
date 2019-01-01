@@ -1604,7 +1604,134 @@ var racioAnalizaObrta = [
   ]
 ];
 
-var racioAnalizaProfitabilnosti = (questions = fixingSpaces(finIzvestavanje));
+var racioAnalizaProfitabilnosti = [
+  [
+    "Kako se dele racia profitabilnosti",
+    "1. prvu grupu cine racia prof prihoda \n 2. drugu grupu cine pokazatelji prof imovine(roa i roe"
+  ],
+  [
+    "definisanje stope bruto poslovnog dobitka",
+    "bruto poslovni dobitak *100 / prihodi od prodaje na ekstrnom i internom trzistu"
+  ],
+  [
+    "Ako je bilans u formi konta kako dobijamo bruto poslovni dobitak",
+    "ukupni poslovni prihodi - (tr direktnog materijala + nabavna vr prodate robe)"
+  ],
+  [
+    "Prvi deo komentara stope bruto poslovnog dobitka",
+    "... pokazuje koliko je ucesce bruto poslvonog dobitka u prihdoima od prodaje preduzeca, odnosno koliko dinara bruto poslovnog dobitka sadrzi svakih 100 dinara prihoda od prodaje. Sto je ova stopa veca, profitabilnost prihoda je veca, a samim tim i profitbilnost preduzeca koja se zatim pozitivno odrazava i na solventnost."
+  ],
+  [
+    "definisanje stope neto poslovnog dobitka",
+    "neto poslovni dobitak * 100/ prihodi od prodaje na eksternom i internom trz "
+  ],
+  [
+    "Prvi deo komentara stope poslovnog dobitka",
+    "... pokazuje koliko je ucesce neto poslovnog dobitka u prihodima od prodaje preduzeca, odnosno, pokazuje koliko dinara neto poslovnog dobitka je sadrzano u svakih 100 dinara prihoda od prodaje preduzeca. Sto je ova stopa veca, veca je profitabilnost prihoda, a samim tim i prof preduzeca, koja se zatim pozitivno odrazava na solv"
+  ],
+  [
+    "definisanje neto profitne marze",
+    "neto dobitak posle poreza * 100 / prihodi od prodaje na eksternom i internom trz "
+  ],
+  [
+    "Prvi deo komentara neto profitne marze",
+    "... pokazuje koliko je ucesce neto dobitka posle poreza u prihodima od prodaje preduzeca, odnosno koliko je dinara neto dobitka posle poreza sadrzano u svakih 100 dinara prihoda od prodaje. Sto je ova stopa veca, veca je prof prihoda, a samim tim i prof preduzeca, koja se zatim pozitivno odrazava na solv"
+  ],
+  [
+    "definisanje racia bruto profitne marze",
+    "bruto profit * 100 / prihodi od prodaje na ekst i int trz"
+  ],
+  [
+    "sta je bruto profit",
+    "neto dobitak posle poreza + troskovi kamata * ( 1 - stopa poreza)"
+  ],
+  [
+    "Moguca shvatanja bruto profita",
+    "1. predstavlja prinos i vlasnika i poverilaca, odnosno predstavlja pogled na prof prihoda iz perspektive vlasnika i iz perspektive poverilaca. Neto dobitak posle poreza predstavlja prinos za vlasnike, dok tr kamata posle poreza predstavljaju prinos poverila. \n 2. predstavlja neto dobitak posle poreza uvecan za tr kamata i umanjen za poreske ustede po osnovu tr kamata, \n 3. neto dobitak koji bi preduzece ostvarilo ukoliko bi njegova imovina u celosti bila finansirana vl kapitalom, odnosno ukoliko preduzece ne bi uopste koristilo pozajmljene izvore fin."
+  ],
+  [
+    "Prvi deo komentara bruto prof marze",
+    "... pokazuje koliko je procentualno ucesce bruto dobitka u prihodima od prodaje, odsnosno on pokazuje koliko dinara bruto profita u sebi sadrzi svakih 100 dinara prihoda od prodaje. Sto su vrednosti ovog racia vece, veca je i profitabilnost prihoda, kao i profitabilnost celog preduzeca, sto se poztivno odrazava na solv"
+  ],
+  [
+    "Da li se na osnovu racia profitabilnosti prihoda moze utvrditi profitabilnost preduzeca",
+    "ne moze se doneti konacan zakljucak o profitabilnosti preduzeca. Visoka prof prihoda nije garancije prof preduzeca, i to zato sto stope dobitka ne uzimaju u obzir visinu angazovanog kapitala i efekat fin leveridza. Konacan sud o prof preduzeca moze se dati nakon analize odgovarajucih stopa prinosa (roa i roe) i njihovog medjusobnog odnosa, sto znaci da se u analizu mora ukljuciti, pored prof prihoda i efikasnost upravljanja ukupnom imovinom i vl kapitalom. Obrt u kombinaciji sa prof prihoda, daje odgovarajuce stope prinosa. Konacno, treba istaci da se preduzece moze oceniti kao profitabilno, tek ako je efekat fin leveridza pozitivan."
+  ],
+  [
+    "definisanje stope prinosa na ukupnu imovinu - roa",
+    "bruto dobitak * 100 / prosecna ukupna imovina"
+  ],
+  [
+    "Dvokomponentna ROA",
+    "bruto dobitak * 100 / prihodi od prodaje na eksternom i int trz X \n prihodi od prodaje na ekst i int trz / prosecna ukupna imovina \n odnosno \n roa = bruto profitna marza * racio obrta ukupne imovine"
+  ],
+  [
+    "Prvi deo komentara ROA",
+    ".. pokazuje profitabilnost imovine preduzeca, odnosno pokazuje koliko dinara bruto profita u proseku tokom godine generise svakih 100 dinara imovine preduzeca. Sto je ova stopa veca, prof imovine je veca, veca je i prof preduzeca, a to se pozitivno odrazava i na solv"
+  ],
+  [
+    "Obrt kao multiplikator ROA",
+    "1. kada bruto prof marza i racio obrta ukpune imovine rastu, raste i ROA, i to brze od bruto profitne marze. Efekat je multiplikovanje profitabilnosti prihoda. \n 2. kada br pr marza i racio obrta ukupne imovine opadaja, ROA opada brze od br pr marze. Efekat je multiplikovanje pada prof prihoda. \n 3. kada br pr marza raste, a obrt pada, ROA raste ali ne tako brzo ka br pr marza. Efekat je ublazavanje rasta profit prihoda. \n 4. kada opada br pr marza, a obrt raste, ROA opada ali ne tako brzo kao u drugom slucaju. Efekat je ublazavanje pada prof prihoda."
+  ],
+  [
+    "definisanje stope prinosa na vlasnicki kapital (ROE)",
+    "neto dobitak posle poreza * 100 / prosecan vl kapital"
+  ],
+  [
+    "Prvo razlaganje ROE",
+    "neto dobitak posle poreza * 100 / prihodi od prodaje na ekst i int trz \n X \n prihodi od prodaje na ekst i int trz / prosecan vlasnicki kapital \n odnosno \n ROE = neto prof marza * racio obrta vl kapitala"
+  ],
+  [
+    "Prvi deo komentara ROE",
+    "... pokazuje prof vl kapitala, odnosno pokazuje koliko dinara neto dobitka posle poreza u proseku u toku godine generise svakih 100 dinara vl kapitala. Sto je ova stopa veca, veca je prof vl kapitala, veca je i prof citavog pred, a samim tim i solv je bolja"
+  ],
+  [
+    "Efekat fin leveridza",
+    "1. kada je ROE > ROA, pred ostvaruje tzv pozitivan efekat fin leveridza. Samo u ovom slucaju moze se utvrditi da je pred profitabilno. Ostvaruje se uglavnom na nizim nivoima zaduzenosti. U ovoj situaciji dalje zaduzivanje voidilo bi daljem rastu prof vl kapitala, sve do dostizanja granice zaduzenosti, \n 2. ROA = ROE, pred je dostiglo granicu zaduzenosti, sto znaci da bi dalje zaduzivanje vodilo padu ROE ispod ROA, odnosno ostvarenju negativnog efekta fin leveridza, tako da nema ek smilsa. \n 3. ROE < ROA, pred ostvaruje negativan efekat fin leveridza. Dalje zaduzvianje vodilo bi daljem padu ROE ispod ROA, i nije ek opravdano."
+  ],
+  [
+    "drugo razlagnje ROE",
+    "prosecna ukupna imovina / prosecan vlasnicki kapital \n X \n prihodi od prodaje / prosecna ukupna imovina \n X \n bruto profit * 100 / prihodi od prodaje \n X \n neto dobitak posle poreza / bruto profit \n odnosno \n ROE = stepen zaduzenosti * racio obrta ukpune imovine * bruto profitna marza * teret duga"
+  ],
+  [
+    "definisanje stepena zaduzenosti",
+    "prosecna ukupna imovina / prosecan vl kapital"
+  ],
+  [
+    "moguce situacije sa stepenom zaduzenosti",
+    "1. stepen zaduzenosti = 1, nema dugova \n 2. stepen zaduzenosti > 1, \n 3. 1 < stepen zaduzenosti < 2, smatra se da preduzece nije visoko zaduzeno, vl kapital dominira u pasivi., \n 4. stepen zaduzenosti = 2, pozajmljeni i vl kapital su jednaki, \n 5. stepen zaduzenosti > 2, pozajmljeni kapital dominira u pasivi, a preduzece se moze smatrati zaduzenim"
+  ],
+  [
+    "definisanje tereta duga",
+    "neto dobitak posle poreza / bruto profit \n pokazuje koliko tr kamata otperecuju neto dobitak posle poreza"
+  ],
+  [
+    "moguce situacije tereta duga",
+    "1. teret duga = 1, nema dugova, \n 2. teret duga < 1, raste zaduzivanje, \n 3. 0,5 < teret duga < 1, teret duga je prihvatljiv, \n 4. 0 < teret duga < 0,5, ukazuje na visoku zaduzenost preduzeca"
+  ],
+  [
+    "Utvrdjivanje efekata fin leveridza na osnovu drugog razlaganje ROE",
+    "1. stepen zaduzenosti * teret duga > 1, pozitivan efekat fin leveridza, ROE > ROA, \n 2. stepen zaduzenosti * teret duga = 1, granizca zaduzivanje, ROE = ROA, \n 3. stepen zaduzenosti * teret duga < 1, negativan efekat fin leveridza, ROE < ROA"
+  ],
+  [
+    "trece razlaganje ROE",
+    "naziva se jos i drugom teoremom Modeljanija i Milera, \n ROA + (ROA - stopa tr pozajmljenog kapitala posle poreza) \n X \n prosecne ukupne obaveze / prosecan vl kapital \n stopa tr pozajmljenog kapitala posle poreza = tr kamata * (1 - stopa poreza) * 100 / prosecne ukupne obaveze"
+  ],
+  [
+    "Utvrdjivanje efekta fin leveridza na osnovu treceg razlaganja ROE",
+    "1. ROA > stopa tr pozajmljenog kapitala, pozitivni efketi fin leveridza, \n 2. ROA = st troskova pozajmljenog kapitala, granica zaduzivanja, \n 3. ROA < st tr pozajmljenog kapitala, negativni efekti fin leveridza"
+  ],
+  [
+    "Cetvrto razlaganje ROE",
+    "(ROA - tr kamata * (1 - stopa poreza) * 100 / prosecna ukuppna imovina) \n X \n prosecna ukupna imovina / prosecan vl kapital"
+  ],
+  [
+    "Ogranicenja racio analize",
+    "1. samim tim sto se zansiva na fin izvestajima, na nju mogu uticati sl nedostaci: n \t 1. razicti obracuni tr amortizacije i tr rezevrvisanja \n \t 2. manipulacije prilikom obracuna dobitka \n \t 3. uticaj inflacije na pojedine pozicije, \n 2. odredjene pozicije, poput zlaiha, su pod velikim uticajem sezonskih varijacija. U skladu sa tim racia koji se zasnivaju na ovim pozicijima treba sprovoditi u kracim vr intervalima, \n 3. racio analiza nije toliko korisna u divizionlanim preduzecima koja se bave biznisima iz razlicith grana, \n 4. prilikom tumacenja odredjenih racia, nije toliko lako zakljuciti da li su njihove vr dobre ili lose. \n 5. moze se desti da odredjeni broj racia pokazuju adekvatan fin polozaj preduzeca, dok opet neki drugi racio brojevi mogu pokazivati da stanje u pred nije tako dobro \n 6. prilkom poredjenja istih racia, u istom pred, u odredjenom periodu, moraju se uzieti u obrzir promene koje su nastupile u periodu poredjneja, npr promena prodajnih cena, pro kapaciteta, ili promene makro uslova"
+  ]
+];
+
+questions = fixingSpaces(finIzvestavanje);
 
 questions.forEach(function(el, ind) {
   el.push(ind + 1);
