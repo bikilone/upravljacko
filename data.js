@@ -1731,6 +1731,60 @@ var racioAnalizaProfitabilnosti = [
   ]
 ];
 
+var analizaNovcanihTokova = [
+  [
+    "Dobitak i neto novacani tok: obracunska neslaganja",
+    "1. vremenska nepodudarnost prihoda i rashoda i novcanih tokova - prilivi gotovine mogu nastati posle prihoda, a odlivi pre rashoda. I to zbog toga sto se prihodi i rashodi u skladu sa principom realizacije, priznaju u trenutku prodaje, a ne u trenutku priliva i odliva gotovine. \n 2. problem evidentiranja kapitalnih ulaganja - nabavka npo se moze odmah u celosti prikazati kao odliv gotovine, u slucaju placanja u gotovom, dok s druge strane rashodi obuhvataju preko tr amortizacije u narendih nekoliko godina, \n 3. Postojanje tr koji ne zhatevaju odliv gotovine, kao sto su tr amortizacije i tr rezervisanja, \n 4. postojanje transakcija koje nisu prihodi i rashodi, ali uzrokuju prilive i odlive gotovine, npr: uzimanje i davanje kredita, primanje i davanje avansa, ulaganje u fin plasmane i njihova prodaja"
+  ],
+  [
+    "dobitak, novcani tok i likvidnost",
+    "dobra fin struktura preduzeca i odgovarajuca profitabilnost mogu ukazati na postajanje dobri ili losih pretpostavki za likvidnost preduzeca. Konacna ocena likv, koja predstavlja dinamicki koncept, uvek se daje na osnovu analize uskladjenosti novcanih tokova. U skladu sa tim cak i dobra, prof preduzeca koja ostvaruju visoke dobitke, mogu imati problem sa likv. npr preduzeca koja brzo rastu i vrse velika kapitalna ulaganja i ulaganja u obrtnu imovinu, mogu ostvariti novcani tok koji znacajno zaostaje za ostvarenim dobitkom i samim tim mogu imati problema da svoje obaveza placaju u svakom trenutku"
+  ],
+  [
+    "dobitak, novcani tok i profitabilnost",
+    "prof se moze ralizkovati izmedju preduzeca, ne samo kao posledica realizaijce posl transakcija vec i zbog primene razlicitih rac politika imetoda. Manipulacije sa prihoidima i rashodima su lakse izvodljive nego sa novcanihm tokovima. Zbog svega navdenog, paznja se mora usmeriti i na novcane tokove, koji omogucavaju da se prf preduzeca sagelda iz jednog drugacijeg ugla."
+  ],
+  [
+    "dobitak, novcani tok i dividende",
+    "Ostvareni dobitak, predsatvlja okvir za vodjenje dividendne politke. Ceo neto dobitak posle poreza pripada vlasnicima. Medjutim ne mora da znaci da je iskazani dobitak uvek i raspoloziv za isplatu dividendi. Zbog toga mora se naglasiti da novcani tok, cash flow po akciji pokazuje realne mogucnosti da dividende budu stvarno i isplacene."
+  ],
+  [
+    "dobitka, novcani tok i trz vrednsot akcija",
+    "za procenu vrednosti akcija se cesto koristi metod diskontovanog novcanog toka. medjutim projekcije novcanih tokova u narendnih nekoliko godina se ne vrse na osnovu trenutnog kretanja novcanih tokova, koje ne predstavlja dobru osnovu za njihvou primenu u buducnosti, vec na osnovu info iz bilasna stanja i info o ostvarenom dobitku u bilasnu uspeha."
+  ],
+  [
+    "motivi za plasiranje gotovine u gotovinske ekvivalente",
+    "1. primarni motiv likv, \n 2. sekundarni, prinos"
+  ],
+  [
+    "razlike izmedju direktne i indirektne metode za sastavljanje izvestaja o novcanim tokovima",
+    "1. polaziste \n \t 1. indirektna - od neto dobitka iz bs, \n \t 2. direktna prevodi prihode i rashode na prilive i odlive gotovine, \n 2. povezivanje dobitka i novcanog toka \n \t 1. indirektna - lakse razumevanje razlika izmedju neto dobitka i novcanog toka \n \t 2. direktna - lakse razumevanje razlika izmedju prihoda i priliva s jedne strane, i rashoda i odliva s druge. \n 3. atraktivnost \n \t 1. indirektna je pogodnija za pravljenje dugorocnih projekcija novcanih tokova , \n \t 2. direktna je pogodnija za pravljenje kratkorocnih projekcija \n 4. informaciona osnova \n \t 1. indirektna se zanisva na info iz bs i bu, stoga je pogodnija za investitore \n \t 2. direktana zahteva siru informacionu osnovu, pored info iz bs i bu, potrebne su i neke druge info koje nisu dostpune investitorima, \n 5. komplesksnost \n \t 1. indirektna je jednostvvanija, \n \t 2. direktna je slozenija \n 6. zastuplejnost u praksi \n \t 1. u sad i evropi vise se koristi indirektna metoda, pri cemu je moguc izbor izmedju obe metode, \n \t 2. u nasoj zemlji se koristi direktna metoda, u skaldu sa zakonom, bez prava izbora"
+  ],
+  [
+    "tretman tr amortizacije i tr rezervisanja prilikom pripremanja izvestaja o novcanim tokovima",
+    "tr am i tr rez ne uticu na novcane tokove pred. njihovi efekti su neutralni, zato sto su u pitanju negotovinski troskovi. Ali kako su njihovi efekti uzeti u obzir prilikom obracuna rez u bs, oni se prilikom pripremanja izvestaja moraju neturalisati, sto se cini dodoavanjem ovih tr na rezultat iz bu. "
+  ],
+  [
+    "tretman prihoda od kamata i rashoda kamata prilikom pripremanja izvestaja o novcanim tokovima",
+    "izvestaj o nocavnim tokovima iz poslovanja mora se korigovati za nocane tokove koji ne pripadaju poslovnim aktivnostima, odnosno za fin prihode koji su posledica investicionih aktivnosti pred, a koji izmedju ostalih prihoda obuhvataju i prihode od kamata. za njihov iznos treba smanjiti novcani tok iz poslovnih aktivnosti i pvoecati novcani tok iz investicionih aktivnosti. Rashodi kamata ostaju u delu izvestaja koji se odnosi na poslovne aktivnosti, zbog toga sto se krediti uzimaju pre svega za obavljanje poslovnih aktinvosti preduzeca"
+  ],
+  [
+    "novcani tokovi iz poslovnih aktivnosti - informaciona vrednost",
+    "analiza novcanih tokova iz posl akt treba da pokaze spsoobnost preduzeca da stvara gotovinu iz internih izvora, odnosno iz osnovne delatnosti. Ovaj deo izvestaja je najvazniji, zato sto pokazuje sposobnost pred da stvara gotovinu iz koje se namiruju interesi kljucnih stejkholdera. Novcani tok iz posl aktivnosti treba da bude pozitivan. Eventualno je moguce da privremeno bude negativan, ali negativan novc tok iz poslovanja u duzem periodu neminovno vodi preduzece u stecaj i likvidaciju"
+  ],
+  [
+    "novcani tokovi iz investicionih aktivnosti - informaciona vrednost",
+    "Pokazuje sposbnost preduzeca da vrsi kapitalna ulaganja, odnosno pokazuje intezitet investicionih aktivnosti. Kapitalna ulaganja su znacajna zato sto treba da obezbede generisanje buducih novcanih tokova i dobitaka. Vrlo je vazno kako su kapitalna ulaganja finansirana. Trebalo bi da su u znacajnoj meri fin iz internih izvora. Ako interni izvori nisu dovoljni koriste se eksterni izvori (mogu bit sopstveni i pozajmljeni). pozeljno je preostali iznos kapitalnih ulaganja fin iz sopstvenih eksternih izvora, tj emisijom i prodjaom akcija, dok pirlikom koriscenja pozajmljenih izvora treba biti vrlo oprezan. Novcani tok iz investicionih aktivnosti je najcesce negativan. Mogu se javiti i pozitivne vrednosti, ali ih treba rlo oprezno tumaciti s obzrimo da mogu biti posledica nemogucnosti fin kap ulaganja ili dezinvestiranja."
+  ],
+  [
+    "novcni tokovi iz fin aktivnosti - inforamciona vrednost",
+    "... u znacajnoj meri predstavljaju poseldicu poslovnih i investicionih aktivnosti preduzeca. ipak pgoresno bi bilo tumacitih ih samo kao posledicu vec pomenutih aktivnosti, s obzriom na vaznost pitanja kao sto su pribavljanje kapitala ili stuktura kapitala. zbog svega navedenog treba reci da se novcani tokovi iz poslovnih i investiocoih akt nikada ne analizirju nezavisno od novcanih tokova ifin aktivnosti. pokazuju iz kojih izvora preduzeca pribalvja kapital, kako imziruje svoje obaveze, da li placa dividende. Ima dva bitna elementa: \n 1. dali pred placa dividende i ako ih placa da li to cini uz fin naprezanje \n 2. kako novcani tokovi iz posl i inv aktivnosti uticu na fin strukturu pred. \n moze biti negativan, sto ne mora nuzno biti lose, pogotovo ako pred odluci da se razduzi ili da plati dividende vlasnicima. Moze biti i pozitivan, sto ne mora nuzno biti dobro."
+  ],
+  [
+    "informaciona vrednost iznosa ukupnog neto novcanog toka preduzeca",
+    "... bez detaljnog uvida u strukturu izvestaja je vrlo mala, bez obzira da li je on pozitivan ili negativan. Iznos neto novcanog toka moze se utvrditi i bez sastavljanja izvestaja o novcanim tokovima, na osnovu razlike izmedju iznosa pozicije gotovine na pocetku i na kraju obracunskog perioda"
+  ]
+];
 questions = fixingSpaces(finIzvestavanje);
 
 questions.forEach(function(el, ind) {
