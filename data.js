@@ -1832,28 +1832,4 @@ var racioAnalizaProfitabilnostiIzPerspektiveInvestitora = [
   ["Prvi deo komentara ukupnog prinosa akcionara", "... predstavlja najpotpuniji pokazatelj prinosa za vlasnike koji jasno pokazuje da deo prinosa dolazi po osnovu dividendi, a deo po osnovu kapitalnih dobitaka. Tek na osnovu i jednih i drugih prinosa moze se oceniti atraktivnost akcija nekog preduzeca."],
   ["Procena uspesnosti menadzmenta na osnovu ukupnog prinosa akcionara", "Rizicno bi bilo koristiti samo ovaj pokazatelj za procenu uspenosti menadmenta. Razlog lezi u tome sto cene akcija ne zavise samo od sposobnosti menadzmenta. One mogu rasti jer je trziste kapitala u usponu, ili padati zbog pada trz kapitala"]
 ]
-questions = fixingSpaces(finIzvestavanje);
 
-questions.forEach(function(el, ind) {
-  el.push(ind + 1);
-});
-
-function fixingSpaces(arr) {
-  var finalArr = arr;
-  for (var i = 0; i < arr.length; i++) {
-    var newArr = arr[i][1].split(" ");
-    for (var j = 0; j < newArr.length; j++) {
-      if (newArr[j] == "\n") {
-        newArr[j] = "<br> <br>";
-      } else if (newArr[j] == "\t") {
-        newArr[j] = "&nbsp &nbsp";
-      } else if (newArr[j] === "info") {
-        newArr[j] = "informacije";
-      } else if (newArr[j] == "upr") {
-        newArr[j] = "upravljacko";
-      } else if (newArr[j] == "rac") newArr[j] = "racunovodstvo";
-    }
-    finalArr[i][1] = newArr.join(" ");
-  }
-  return finalArr;
-}
