@@ -23,7 +23,7 @@ var obj = {
     }
 }
 
-questions = fixingSpaces(obj.drugiDeo.finIzvestavanje);
+questions = fixingSpaces(stp);
 
 var sum = 0;
 for (x in obj) {
