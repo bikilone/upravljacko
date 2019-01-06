@@ -1309,7 +1309,7 @@ var racioAnalizaLikvidnosti = [
   ],
   [
     "prvi deo komentara racia opste likvidnosti",
-    "Racio tekuce likvidnosti pokazuje sa koliko dinara obrtne imoivne je pokriven svaki dinar kratkorocnih obaveza preduzeca krajem godine. Sto je iznos tog pokrica veci, nok je veci, a samim tim i kvalitet fin stukture je bolji kao i pretpostavke za likvidnost. S obzirom da se u pozadini ovog racia nalazi bankarsko pravilo fin, njegova orijentaciona normala je 2. Pozeljne su one vrednosti ovog racia vece od 2. One ukazuju da je prisutan NOK, da je fin struktura dobra kao i pretpostavke za ocuvanje livkdisnoti preduzeca. Sa druge strane vrednosti ovog racia"
+    "Racio tekuce likvidnosti pokazuje sa koliko dinara obrtne imoivne je pokriven svaki dinar kratkorocnih obaveza preduzeca krajem godine. Sto je iznos tog pokrica veci, nok je veci, a samim tim i kvalitet fin stukture je bolji kao i pretpostavke za likvidnost. S obzirom da se u pozadini ovog racia nalazi bankarsko pravilo fin, njegova orijentaciona normala je 2. Pozeljne su one vrednosti ovog racia vece od 2. One ukazuju da je prisutan NOK, da je fin struktura dobra kao i pretpostavke za ocuvanje livkdisnoti preduzeca. Sa druge strane vrednosti ovog racia manje od 2, ukazuju na nesto losiju fin strukturu i slabije pretpostavke za ocuvanje likv, ipak to jos uvek ne znaci da ce preduzece biti nelikvidno"
   ],
   [
     "racio tekuce likvidnosti i nok vs likvidnost preduzeca",
@@ -1369,7 +1369,7 @@ var racioAnalizaLikvidnosti = [
     " dugorocni kapital / realna imovina"
   ],
   [
-    "prvi deo komentara racia pokrica stalne imovine",
+    "prvi deo komentara racia pokrica realne imovine",
     "Ovaj racio pokazuje sa koliko dugorocnog kapitala je pokriven svaki dinar realne imovine preduzeca krajem godine. Sto je iznos tog pokrica veci, veci je nok, kvlaitet fin stukture je bolji, fin rizici s kojima se suocava preduzece su manji, a pretpostavke za sovlentnost su bolje. S obzirom na to da se u pozadini ovog racia nalazi zlatno bilansno pravilo u sirem smislu, njegova orijentacciona normala je 1. Pozeljne vrednosti ovog racia su one vece od 1 i one ukazuju na postojanje visokog noka, dobru fin strukuru, male fin rizike s kojima se preduze suocava i u skladu sa tim na dobre pretpostavke za solventnost. Ukoliko su vrednosti racia manje od 1, i dalje moze postojati nok, samo je on manji nego u prethodnom slucaju, a pretpostavke za solventnost nesto slabije."
   ],
   ["definisanje racia pokrica zaliha nokom", " nok / zalihe + avr * 100"],

@@ -23,7 +23,7 @@ var obj = {
     }
 }
 
-questions = fixingSpaces(stp);
+questions = fixingSpaces(obj.drugiDeo.racioAnalizaLikvidnosti);
 
 var sum = 0;
 for (x in obj) {
