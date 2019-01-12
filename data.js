@@ -1375,7 +1375,7 @@ var racioAnalizaLikvidnosti = [
   ["definisanje racia pokrica zaliha nokom", " nok / zalihe + avr * 100"],
   [
     "definisanje racia pokrica obrtne imovine nokom",
-    "nok / obrtna imovina + avr"
+    "nok / obrtna imovina + avr * 100"
   ],
   [
     "prvi deo komentara racia pokrica zaliha nokom/ racio prokica obrtne imovine nokom",
@@ -1392,7 +1392,7 @@ var racioAnalizaLikvidnosti = [
   ],
   [
     "definisanje racia pokrica obaveza nnt iz poslovanja",
-    "nnt iz poslovanja / prosecne ukupne obaveze"
+    "nnt iz poslovanja / prosecne ukupne obaveze \n * prosecne ukupne obaveze = dug rez + dug obaveze + kratkorocne obaveze + pvr"
   ],
   [
     "Prvi deo komentara racia pokrica obaveza nnt iz poslovanja",
@@ -1547,7 +1547,7 @@ var racioAnalizaObrta = [
   ],
   [
     "definisanje racia obrta gotovih proizvoda",
-    "cena kostanja gotovih proizvoda / prosecna vrednost zaliha gotovih proizvoda"
+    "cena kostanja prodatih proizvoda / prosecna vrednost zaliha gotovih proizvoda"
   ],
   [
     "definisanje racia obrta robe",
@@ -1623,7 +1623,7 @@ var racioAnalizaProfitabilnosti = [
   ],
   [
     "definisanje stope neto poslovnog dobitka",
-    "neto poslovni dobitak * 100/ prihodi od prodaje na eksternom i internom trz "
+    "neto poslovni dobitak * 100/ prihodi od prodaje na eksternom i internom trz \n neto poslvni dobitak ako je u formi liste uzima se direktno, \n ako je u formi konta - poslovni prihodi-poslovni rashodi"
   ],
   [
     "Prvi deo komentara stope poslovnog dobitka",
@@ -1832,4 +1832,37 @@ var racioAnalizaProfitabilnostiIzPerspektiveInvestitora = [
   ["Prvi deo komentara ukupnog prinosa akcionara", "... predstavlja najpotpuniji pokazatelj prinosa za vlasnike koji jasno pokazuje da deo prinosa dolazi po osnovu dividendi, a deo po osnovu kapitalnih dobitaka. Tek na osnovu i jednih i drugih prinosa moze se oceniti atraktivnost akcija nekog preduzeca."],
   ["Procena uspesnosti menadzmenta na osnovu ukupnog prinosa akcionara", "Rizicno bi bilo koristiti samo ovaj pokazatelj za procenu uspenosti menadmenta. Razlog lezi u tome sto cene akcija ne zavise samo od sposobnosti menadzmenta. One mogu rasti jer je trziste kapitala u usponu, ili padati zbog pada trz kapitala"]
 ]
+
+var racunovodstvoTroskova = [
+  ["razlike izmedju fin i racunovodstva trokosva", "1. usmerenost \n \t 1. rac troksova je usmereno interno, bavi se internim procesima transformacije inputa u otupute, plus pripema info za interne korisnike \n \t 2. fin rac je eksterno usmereno, odnosno moze se reci da se bavi pripremanjem info za eksternim korisnike \n 2. predmet obracuna  \n \t 1. rac tr primarno se bavi obracunom utrosenih koliicina inputa i troskovima \n \t 2. fin rac je primarno usmereno na obracun novcanih tokova \n 3. vremenski period izvestavanja \n \t 1. rac tr najcesce prezenutje info na mesecnom i kvartalnom nivou, a nekad i u kracim vremenskim intervalima \n \t fin rac najcesce prezentuje info na godinsnjem nivou \n 4. analiticki karakter \n \t 1. rac tr je usmereno na analiticki obracun troskova po org delovima \n \t 2. fin rac je orijentisano an preduzece kao celinu, odnosno na globalni obracun trosvkova \n 5. slobode koje se odnose na primenu raznih tehinka i pristupa \n \t 1. rac troskova ima znatno vecu slobodu, primena tehnika nije strogo regulisana rac standardima \n \t 2. fin rac ima znatno manju slobodu, zato sto je primena raznih tehnika najcesce regulisana standardima i zakonima"],
+  ["Informacioni ciljevi rac tr", "1. pruzanje info o proizvodnoj ceni kostanja za potrebe razgranicavanja vrednosti izmedju bilansa stanja i bilansa uspeha, odnosno za potrebe bilansaranja zaliha ucinaka i bilansiranje rez. Pruzanje info o proizvodnoj ceni kostanja predstavlja osnovni informacioni cilj rac troskova, \n 2. pruzanje info za potrebe planiranja i kontrole troskova, prihoda i rezultata po organizacionim delovima preduzeca \n 3. pruzanje info potrebnih za formiranje prodajnih cena \n 4. pruzanje info koje su potrebne za donosenje psolovnih odluka u vezi sa izborom izmedju razlicith alternativa"],
+  ["osnovna producja rac troskova", "1. obracun tr po vrstama \n 2. obracun tr po mestima tr \n 3. obracun tr po nosiocima \n 4. kratkorocno izvestavanje"],
+  ["definisite mesto troskova i navedite grupe upravljackih potreba koje stoje u osnovi klasifikovanja troskova po mestima troskova", "Mesto tr predstavlja uzi org deo pred u ovkru koga se obavljaju homogeni poslovi. \n obracu po mestima tr se vrsi iz tri razloga: \n 1. kalkulativni razlog - sto tacnija kalkulacija proizvodne cene kostanja. U ovom kontekstu potrebna je pdolea mesta tr na glavna i ostala mesta tr \n 2. kontrolni razlog - potreba kontrole trosvkoa po org delovima \n 3. informacioni razlog - zbog donosenja odluka u vezi sa pojedinacnim org delovima"],
+  ["osnovne karakteristike internog polaganja racuna", "1. sprovodi se unutar upravljacke piramide, \n 2. odnosi se na kratak rok \n 3. nije obavezno \n 4. proistice iz dobre poslovne prake \n 5. odnosi se na izvestavanje o uspesnosti poslovnih segmenata \n 6. odnosi se na poslovne prihode i poslovne troskove \n 7. moze podrazumeavati prezentovanje internog bilansa uspeha i internog bilansa stanja. "],
+  ["podela troskova po poslovnim funkcijama", "1. tr proizvodnje u sirem smislu \n 2. neporoivodne troskove"]
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

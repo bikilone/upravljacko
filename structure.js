@@ -23,7 +23,7 @@ var obj = {
     }
 }
 
-questions = fixingSpaces(obj.drugiDeo.racioAnalizaLikvidnosti);
+questions = fixingSpaces(obj.drugiDeo.racioAnalizaProfitabilnostiIzPerspektiveInvestitora);
 
 var sum = 0;
 for (x in obj) {
