@@ -20,10 +20,14 @@ var obj = {
     },
     segmentnoIzvestavanjaIAnalizaProfitabilnosti: { 
         segmentnoIzvestavanjeIAnalizaProfitabilnosti: segmentnoIzvestavanjeIAnalizaProfitabilnosti 
+    },
+    treciDeo: {
+        racunovodstvoTroskova: racunovodstvoTroskova
     }
 }
 
-questions = fixingSpaces(obj.drugiDeo.racioAnalizaProfitabilnostiIzPerspektiveInvestitora);
+
+questions = fixingSpaces(obj.racunovodstvoOdlucivanja.racunovodstvoOdlucivanja);
 
 var sum = 0;
 for (x in obj) {
@@ -33,11 +37,25 @@ for (x in obj) {
     }
 }
 
+
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
+}
+
 console.log(`Num of all questions is ${sum}`)
 
 questions.forEach(function (el, ind) {
     el.push(ind + 1);
 });
+
+// questions = shuffle(questions)
 
 function fixingSpaces(arr) {
     var finalArr = arr;
