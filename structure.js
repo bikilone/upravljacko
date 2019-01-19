@@ -23,11 +23,14 @@ var obj = {
     },
     treciDeo: {
         racunovodstvoTroskova: racunovodstvoTroskova
+    },
+    transferneCene: {
+        transferneCene: transferneCene
     }
 }
 
 
-questions = fixingSpaces(obj.racunovodstvoOdlucivanja.racunovodstvoOdlucivanja);
+questions = fixingSpaces(obj.drugiDeo.racioAnalizaProfitabilnostiIzPerspektiveInvestitora);
 
 var sum = 0;
 for (x in obj) {

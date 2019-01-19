@@ -509,7 +509,7 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "definisanje centralizacije i decentralizacije preduzeca",
-    "centralizacija podrazumeva koncentraciju ovlascenja za donosenje odluka na upravljackom vrhu, takva preduzeca su po pravilu 1. mala i mlada, 2. velika sa homogenim asortimanom i u stabilnom okruzenju; decentralizacija podrazumeva delegiranje ovlascenja i odgovornosti za donosenje odluka na menadzere na nizim upr nivoima"
+    "centralizacija podrazumeva koncentraciju ovlascenja za donosenje odluka na upravljackom vrhu, takva preduzeca su po pravilu \n 1. mala i mlada sa jednim ili manjim brojem proizvoda u asortimanu, \n 2. velika sa homogenim asortimanom i u stabilnom okruzenju; decentralizacija podrazumeva delegiranje ovlascenja i odgovornosti za donosenje odluka na menadzere na nizim upr nivoima \n Decentralizacija preduzeca podrazumeva delegiranje ovlascenja i odgovornosti za donosenje odluka na menadzere na nizim upravljackim nivoima. Generalno, moze se reci da ovlascenja i odgovornost za donosenje strategijskih odluka ostaju na upravljackom vrhu, dok se odg i ovlascenja za donosenje taktickih i operativnih odluka prenose na nize upravljacke nivoe"
   ],
   [
     "decentralizacija vs divizionalizacija preduzeca",
@@ -517,11 +517,11 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "moguci status divizija",
-    "1. profitni centri, 2. investicioni cntri (1. slozeni, 2. jednostavni"
+    "1. profitni centri, \n 2. investicioni cntri: \n \t 1. slozeni - sastvljeni od veceg broja prof cent, \n \t 2. jednostavni - nisu podeljeni na prof centre"
   ],
   [
     "glavni razlozi divizionalizacije i decentralizacije",
-    " 1. velika i slozena multiproizvodna preduzeca, 2. poslovanje u nestabilnom okruzenju, kljucni faktori pojave divizionalizacije su: 1. diversifikacija, 2. velika preduzeca sa sirokim asortimanom, 3. preduzeca orijentisana na eksterni rast"
+    " 1. velika i slozena multiproizvodna preduzeca, \n 2. poslovanje u nestabilnom okruzenju, \n kljucni faktori pojave divizionalizacije su: \n 1. diversifikacija, \n 2. velika preduzeca sa sirokim asortimanom, \n 3. preduzeca orijentisana na eksterni rast"
   ],
   [
     "prednosti divizionalizacije - usavrsavanje proces odlucivanja",
@@ -553,7 +553,7 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "nedostaci divizionalizacije - konfilktne situacije izmedju divizija",
-    "1. konkurisanja div na istom eksternom trz, 2. prodaja proizvoda na ekst trz umesto drugoj diviziji na internom trzistu"
+    "1. konkurisanja div na istom eksternom trz, \n 2. prodaja proizvoda na ekst trz umesto drugoj diviziji na internom trzistu"
   ],
   [
     "nedostaci divizionalizacije - dupliranje aktivnosti na nivou divizija", "- moze doci do dupliranja..."
@@ -564,19 +564,19 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "navedite prednosti divizionalizacije",
-    "1. usavrsavanje procesa odlucivanja, 2. rasterecnje centralnog mmen, 3. uspostavljanje efikasne kontrole, 4. jacanje konkurencije i fer nadmetanja izmedju div, 5. razvijanje men vestina na div nivou, 6. unapredjenje sistema motivisanja"
+    "1. usavrsavanje procesa odlucivanja, \n 2. rasterecnje centralnog mmen, \n 3. uspostavljanje efikasne kontrole, \n 4. jacanje konkurencije i fer nadmetanja izmedju div, \n 5. razvijanje men vestina na div nivou, \n 6. unapredjenje sistema motivisanja"
   ],
   [
     "navedite nedostatke divizionalizacije",
-    " 1. suboptimalno odlucivanje, 2. konfliktne situacije izmedju divizija, 3. dupliranje aktivnosti na nivou divizija, 4. davanje prioriteta kratkorocnim ciljevima na racun drugorocnih"
+    " 1. suboptimalno odlucivanje, \n 2. konfliktne situacije izmedju divizija, \n 3. dupliranje aktivnosti na nivou divizija, \n 4. davanje prioriteta kratkorocnim ciljevima na racun drugorocnih"
   ],
   [
     "pretpostavke uspesne divizionalizacije",
-    "1. def divizionih granica - velicine i tehnoloske nezavisnosti div, 2. def div samostalnosti - stepen ovlascenja, 3. obezbedjivanje div nezavisnosti - aktivnosti div nezavisne od akt drugih div, 4. ocuvanje interesa preduzeca kao celine - nije dozvoljeno povecanje prinosa div ako istovremeno vodi padu prinosa preduzeca kao celine, 5. razvijanje efikasnog sistema planiranja i kontrole - optimalna alokacija resursa i merenje performansi, 6. razvijanje sistema za resavanje potencijalnih konflikata izmedju div, 7. razvijanje sistema nagradjivanja"
+    "1. def divizionih granica - velicine i tehnoloske nezavisnosti div, \n 2. def div samostalnosti - stepen ovlascenja, \n 3. obezbedjivanje div nezavisnosti - aktivnosti div nezavisne od akt drugih div, \n 4. ocuvanje interesa preduzeca kao celine - nije dozvoljeno povecanje prinosa div ako istovremeno vodi padu prinosa preduzeca kao celine, \n 5. razvijanje efikasnog sistema planiranja i kontrole - optimalna alokacija resursa i merenje performansi, \n 6. razvijanje sistema za resavanje potencijalnih konflikata izmedju div, \n 7. razvijanje sistema nagradjivanja"
   ],
   [
     "segmentsko izvestavanje treba da zadovolji tir vrste informacionih zahteva",
-    "1. info zahtevi eksternih korisnika, 2. info zahtevi centralnog men, 3. info zahtevi men na nizim nivoima"
+    "1. info zahtevi eksternih korisnika, \n 2. info zahtevi centralnog men, \n 3. info zahtevi men na nizim nivoima"
   ],
   [
     "info zahtevi eksternih korisnika (seg izv)",
@@ -592,7 +592,7 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "rac centri odg koji se mogu prepoznati u div pred",
-    "1. prihoda, 2. stand troskova, 3. diskrecionih rashoda, 4. profitni, 5. investicioni"
+    "1. prihoda, \n 2. stand troskova, \n 3. diskrecionih rashoda, \n 4. profitni, \n 5. investicioni"
   ],
   [
     "sta su uza podrucja odg i gde se oni mogu pojaviti",
@@ -600,11 +600,11 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "definisanje profitnih centara i ovlascenja njihovih menadzera",
-    "prof centri su rel samostalni i funkcionalno zaokruzeni delovi preduzeca, na cije men su prneta ovlascenja i odgovornost za donosenje odluka u vezi sa prihodima, troskovima i rez. Podeljeni su razlicite posl funkcije, a moraju imati najmanje: 1. funk proivodnje, funk prodaje"
+    "prof centri su rel samostalni i funkcionalno zaokruzeni delovi preduzeca, na cije men su prneta ovlascenja i odgovornost za donosenje odluka u vezi sa prihodima, troskovima i rez. Podeljeni su razlicite posl funkcije, a moraju imati najmanje: \n 1. funk proivodnje, \n 2. funk prodaje"
   ],
   [
     "uslovi potrebni za konstituisanje prof centara",
-    "1. moraju da poseduju dovoljnu masu direktinih prihoda i troskova, kako bi kontrola preko dobitka bila moguca, 2. dodeljvianje ovlascenja men prof centara za donosenje odlu o.. , 3. da imaju sopstveno ekst trz inputa i outputa, 4. odnosi moraju biti jasno definisani, 5. sprepnost cen men da delegira potrebana ovlascenja"
+    "1. moraju da poseduju dovoljnu masu direktinih prihoda i troskova, kako bi kontrola preko dobitka bila moguca, \n 2. dodeljvianje ovlascenja men prof centara za donosenje odlu o.. , \n 3. da imaju sopstveno ekst trz inputa i outputa, \n 4. odnosi moraju biti jasno definisani, \n 5. sprepnost cen men da delegira potrebana ovlascenja"
   ],
   [
     "definisanje investi centara i ovlascenja njihovih men",
@@ -612,7 +612,7 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "uslovi potrebni za konstituisanje inv cent",
-    "1. svi uslovi neophodni za prof centre, 2. moraju da budu dovoljno prepoznatljivi ako bi se njih preno kapital, 3. dovoljno veliki kako bi njihvoa kontrola preko stope prinosa ili rez dobitka imala smisla, 4. na men preneta ovlascenja o ulaganjima, 5. spremnost cen men da izvrsi decentralizaciju ovlascenja koja treba da omoguci kontrolu putem stope prinosa ili rez dobitka"
+    "1. svi uslovi neophodni za prof centre, \n 2. moraju da budu dovoljno prepoznatljivi ako bi se njih preno kapital, \n 3. dovoljno veliki kako bi njihvoa kontrola preko stope prinosa ili rez dobitka imala smisla, \n 4. na men preneta ovlascenja o ulaganjima, \n 5. spremnost cen men da izvrsi decentralizaciju ovlascenja koja treba da omoguci kontrolu putem stope prinosa ili rez dobitka"
   ],
   [
     "def centara prihoda i ovlacenja nihovih men",
@@ -620,7 +620,7 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "gde se nalaze centri prihoda i kako mogu biti definisani",
-    "u okviru marketing funkcije, mogu biti def prema: 1. kupcima, 2. proizzvodima, 3. trzistima, 4. kanalima prodaje, 5. u manjim pred cela marketing funk moze biti centar prihoda"
+    "u okviru marketing funkcije, mogu biti def prema: \n 1. kupcima, \n 2. proizzvodima, \n 3. trzistima, \n 4. kanalima prodaje, \n 5. u manjim pred cela marketing funk moze biti centar prihoda"
   ],
   [
     "def centara troskova i ovlascenja njihovih menazdera",
@@ -628,7 +628,7 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "gde se mogu prepoznati centri troskova i sta mogu da obuhvataju",
-    "u proizvdonoj funk, mogu obuhvatati: 1. manji skup masina, 2. jednu proizvdonu liniju, 3. proizvodni pogon, 4. u manjim pred mogu obuvhatati calu funk proizvodnje"
+    "u proizvdonoj funk, mogu obuhvatati: \n 1. manji skup masina, \n 2. jednu proizvdonu liniju, \n 3. proizvodni pogon, \n 4. u manjim pred mogu obuvhatati calu funk proizvodnje"
   ],
   [
     "def centara budzetiranih rashoda i ovlascenja njihovih menadzera",
@@ -636,19 +636,19 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "gde se prepoznaju centri diskrecionih rashoda",
-    "1. I&R, 2. finanisje, 3. racunovodstvo, 4. marketing"
+    "1. I&R, \n 2. finanisje, \n 3. racunovodstvo, \n 4. marketing"
   ],
   [
     "razlozi za odvajanje performansi centara odgovornosti od performansi njihovih menazdera",
-    "1. princip kontrolabilnosti, odg menadzera mora biti u skladu sa njegovim ovlascenjima, 2. vrlo cesto se na glavne pozicije u neuspesnim div postavljaju kvalitetni menadzeri, 3. ako divizija uspesno posluje, ne mora da znaci da su i njeni men uspesni, 4. ako je div uspesna, a to je posledica eksternih faktora koji se nalaze izvan kontrole i uticaja menadzera"
+    "1. princip kontrolabilnosti, odg menadzera mora biti u skladu sa njegovim ovlascenjima, \n 2. vrlo cesto se na glavne pozicije u neuspesnim div postavljaju kvalitetni menadzeri, \n 3. ako divizija uspesno posluje, ne mora da znaci da su i njeni men uspesni, \n 4. ako je div uspesna, a to je posledica eksternih faktora koji se nalaze izvan kontrole i uticaja menadzera"
   ],
   [
     "koji su principi merenja performansi",
-    "1. optimizacije performansi preduzeca, 2. div nezavisnost, 3. kontrolabilnost, 4. podsticanja men delova da rade u interesu preduzeca kao celine"
+    "1. optimizacije performansi preduzeca, \n 2. div nezavisnost, \n 3. kontrolabilnost, \n 4. podsticanja men delova da rade u interesu preduzeca kao celine"
   ],
   [
     "princip opt performansi preduzeca",
-    "div ne treba da obavlja aktivnosti koje poveljno uticu na dobitak div, ukoliko nepovoljno uticu na na preduzece - moze biti posledice - 1. suboptimalnog ponasanja men, 2. neadekvatno merenje performansi"
+    "div ne treba da obavlja aktivnosti koje poveljno uticu na dobitak div, ukoliko nepovoljno uticu na na preduzece - moze biti posledice - \n 1. suboptimalnog ponasanja men, \n 2. neadekvatno merenje performansi"
   ],
   [
     "princip div nezavisnosti",
@@ -656,7 +656,7 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "princip kontrolabilnosti",
-    "odg men mora biti u skladu sa njegovom odgovornoscu"
+    "odg men mora biti u skladu sa njegovom ovlascenjima"
   ],
   [
     "princip podsticanja menadzera delova da rade u interesu pred kao celine",
@@ -668,27 +668,27 @@ var segmentnoIzvestavanjeIAnalizaProfitabilnosti = [
   ],
   [
     "opravdanost alokacije opstih troskova",
-    "1. kada je iznos troskova centrale znacajan, tako da postoji rizik da ne budu pokriveni iz prihoda, 2. postoji potreba za vecom uporedivoscu div sa samostalnim preduzecima, 3. kada se primenom visestrukih kriterijuma za alokaciju moze uspostaviti veza izmedju aktivnosti div i tro centrale, 4. ako bi div imala ove troskove kada bi poslovala kao samostalno preduzece"
+    "1. kada je iznos troskova centrale znacajan, tako da postoji rizik da ne budu pokriveni iz prihoda, \n 2. postoji potreba za vecom uporedivoscu div sa samostalnim preduzecima, \n 3. kada se primenom visestrukih kriterijuma za alokaciju moze uspostaviti veza izmedju aktivnosti div i tro centrale, \n 4. ako bi div imala ove troskove kada bi poslovala kao samostalno preduzece"
   ],
   [
     "ciljevi izvestavanja o ostvarenjima profitnih centara",
-    "1. kontrola ostvarenja prof centara i menadzera, 2. treba da omoguci kontrolu uzih podrucja odgovornosti unutar prof centara, 3. efikasno obavljanje upravljackih aktivnosti po prof centrima, 4. pruzanje info koje su znacajne za donosenje poslovnih odluka"
+    "1. kontrola ostvarenja prof centara i menadzera, \n 2. treba da omoguci kontrolu uzih podrucja odgovornosti unutar prof centara, \n 3. efikasno obavljanje upravljackih aktivnosti po prof centrima, \n 4. pruzanje info koje su znacajne za donosenje poslovnih odluka"
   ],
   [
     "sta cini izvestajnu osnovu izvestaja o profitnim centrima",
     "interni bilans uspeha"
   ],
   [
-    "raznovrsnost izvestavanja",
-    "1. sumarni izvestaji koji su namenjeni upr vrhu - po vertikali sadrze info o kljucnim konceptima rezultata, a po horizontali - info o ostvarenjima preduzec kao celine; 2. detaljni izvestaji namenjeni menazderima profitnih centara - po vertikali info o kljucnim konceptima rezultata i strukturi troskova, po horizontali - info o ostvarenjima celog profitnog centra"
+    "raznovrsnost izvestavanja - profitni centri",
+    "1. sumarni izvestaji koji su namenjeni upr vrhu - po vertikali sadrze info o kljucnim konceptima rezultata, a po horizontali - info o ostvarenjima preduzec kao celine; \n 2. detaljni izvestaji namenjeni menazderima profitnih centara - po vertikali info o kljucnim konceptima rezultata i strukturi troskova, po horizontali - info o ostvarenjima celog profitnog centra"
   ],
   [
     "Kljucne karakteristike internog bilansa uspeha",
-    "1. vertikalna segmentacija rezultata - zasnovan na kontribucionom pristupu koji podrazumeva obracun rezultat na vise razlicith novio po vertikali, 2. horizontalna segmentacija rezultata - prikazivanje rez na nivou preduzeca kao celine, na nivou prof i invest centara, ali i na nivou proizvodnih linija, 3. podela troskova na kontrolabilne i nekontrolabilne"
+    "1. vertikalna segmentacija rezultata - zasnovan na kontribucionom pristupu koji podrazumeva obracun rezultat na vise razlicith novio po vertikali, \n 2. horizontalna segmentacija rezultata - prikazivanje rez na nivou preduzeca kao celine, na nivou prof i invest centara, ali i na nivou proizvodnih linija, \n 3. podela troskova na kontrolabilne i nekontrolabilne"
   ],
   [
     "pokazatelji ostvarenja prof centara mogu biti",
-    "1. apsolutni - kontribucioni rez, kontrolabilni rez, divizioni prinos, poslovni dobitak divizije; 2. relativni - profitna marza"
+    "1. apsolutni - kontribucioni rez, kontrolabilni rez, divizioni prinos, poslovni dobitak divizije; \n 2. relativni - profitna marza"
   ],
   ["Kontribucioni rezultat - najtacniji koncept rezultata", "kr predstavlja najtacniji koncept rezultata zato sto izbegava alokaciju fixnih tr po pojedinacnim proizvodima koja cesto moze biti neprecizna. Sa druge strane alokacija prihoda i direktnih var tr po proizvdoima je prilicno laka, dok se indirektni var tr mogu alcirati po prozivodima sa zadovoljavajucom tacnoscu uz pomoc alokacionih kljuceva"],
   ["Kontribucoini rez - neadekvatan pokazatelj performansi men prof centara", "zato sto se pored var tr, pod njihovom kontrolom nalazi i deo fix tr"],
@@ -1916,6 +1916,34 @@ var racunovodstvoTroskova = [
   ["kvalitativno objasnjenje uticaja na rezultat sistema obracuna po standardnim varijabilnim tr", "1. ovaj sistem u tr proizvoda ukljucuje samo stand var tr proizvodnje, dok odstupanja stvarnih od stand tr pr i opste fiksne tr pr ukljucuje u tr perioda (kao i celokupne neproizvodne tr), i u skladu sa tim obracunava najmanju proizvodnu cenu kostanja koja bitno utice na visinu periodicnog rez \n 2. zbog toga sto suvisen var tr pr smatra tr perioda, ovaj sistem cini periodicni rez zavisnim osim od obima prodaje i prodajnih cena, jos i od: \n \t 1. ekonomicnosti u potrosnji fakotroa pr \n \t 2. efikasnost radne snage \n i to uvek u tekucem periodu \n 3. zbog toga sto stvarne opste fix tr pr smatra tr peioda, ovaj sistem cini periodicni rez nezavisnim od stepena iskoriscenosti kapaciteta, odnosno da li je to period formiranja/likvidiranja zaliha. zbog toga ovaj sisitem ne dozvoljava popravljanje rez u periodima formiranja zaliha na teret nekih buducih perioda livkidiranja zaliha. Ovaj sistem u normalinm okolnostima u periodima formiranja zaliha obracunava manji rezultat nego u periodima likvidiranja zaliha, u cemu ima ekonomske logike jer je rezultat veci u periodima u kojima prodaja ide dobro, nego u periodima u kojima prodaja ide slabo."],
   ["Prednosti sistema obracuna po stand var tr", "1. obezbedjuje najrealniji obracun pr cene kostanja, a usladu sa tim i najrealniji obraucn predionig rezultattata i vrednist zailha \n 2. ne dozvoljava mogucnost za popravljanje periodicnog rez na osnovu povecanja obima proizvodnje iznad obima prodaje \n 3. ovaj sistem je kompatibilina sa cvp analizom \n 4. obezbedjuje trkosvnu osnovu za vodjenje kratkorocne politike cena, koja se zasniva na var tr, \n 5. pruza adekvatnu trkoskovnu osnovu za upravljanje asortimanom"],
   ["razlika izmedju prosecnihi i marginalnih tr", "ogleda se u tome sto prosecni tr vaze za citav obim aktivnosti, dok se marginalni tr racunaju samo za dati obim aktivnosti."]
+]
+
+var transferneCene = [
+  ["definisanje interne perspektive transfernih cena", "... odnosi se na vrednovanje proizvoda koji se razmenjuju na internom trzistu, izmedju divizija, ili nesto drugacije receno, u pitanju je problme formiranja prodajnih cena proizvoda i usluga koj se razmenjuju na internom trzistu."],
+  ["specificnosti transfernih cena", "1. tr cene predstavljaju instrument za alokaciju zajednicki zaradjenih prihoda i dobitaka izmedju divizija koje ucestvuju u internim transferima. Za razliku od tr cena, prodajne cene namenjene eksternim kupcima odredjuju prihode i rezultate divizija koje svoje pr pordaju na eskternom trz \n 2. tr cene odredjuju prihode za diviziju prodavca i troskove za diviziju kupca, odatle sledi da tr cene uticu na dobitak obe divizije \n 3. tr cene predstavljaju potenicjalno sredstvo za prevaljivanje neefikasnosti sa divizija prodavca na div kupca \n 4. pored toga sto uticu na visinu dobikta delova preduzeca, tr cene mogu uticati i na dobitak preduzeca kao celine \n 5. ukljucivanje transfernih cena zajedno sa dobicima u cenu finalinh pr moze dovesti do previsoke prodajne cene koja nece biti konkurentna, a to moze dovesti do pada prodaje \n 6. resenje konfilkta izmejdu div koji nanose stetu preduzeca kao celini zahteva intervenisanje upravljackog vrha sto moze narusiti autonomiju divizionih men"],
+  ["ciljevi koje treba ostvariti prilikom formiranja tr cena", "1. realno prikazivanje performansi div i njihovih men \n 2. onemogucavanje prelivanja neefikasnosti sa div prodavca na div kupca \n 3. uskladjivanje ciljeva div sa ciljevima pred kao celine \n 4. podrzavanje autonomije div men"],
+  ["transferne cene na savrseno konkurnenotm trz", "na savrenosm konk trz transferne cene su jednake trzisnim"],
+  ["modifikovane trz cene (trz cene minus)", "tr cene su jednake trz cenama umanjenim za ustede koje se mogu ostvariti ukoliko se pr prodaju na internom umesto na eksternom trz. Ustede se mogu ostvariti u tr promocije, distribucije, pakovanja. Trz cena nece biti umanjena za ukupni iznos usteda u tr, vec ustede treba podeliti izmedju div prodavca i div kupca, kako bi i div prod ostvarila poz efekte"],
+  ["koje su trz zanosvane tr cene", "1. na savrseno konk trz \n 2. trz cene minus"],
+  ["koja pitanja namece koriscenje tr kao polazne osnoove za formiranje tr cena?", "1. kako def tr koje treba ukljuciti u tr cenu - treba da se zasnivanju na stnd tr. U suprotnom (prema stvarnim) dovelo bi do prenosenja neefikasnosti sa div pr na div kupca. \n 2. na koji koncept tr treba dodati odgovarajuci dobitak kako bi se formirala tr cena - kao tr osnova se moze korististi var troskovi kao donja granica, puni troskovi kao gornja granica, ili neki drugi koncept izmedju ove dve krajnosti. \n 3. kako dorediti iznos dobikta koji treba dodati na odgovarajucu troskovnu osnovu - iznos dobitka koji treba dodati na tr osnovu treba povezati sa ciljnim prinosom odgovarajuceg segmenta. max prinos koji treba dodati na tr ne bi trebalo da bude veci od prinosa koji bi div prodavac ostvarila ukoliko bi poslovala kao samostalno preduzeca \n 4. kako tr cene zasnovane na tr uticu na raspodelu dobitka izmedju div - mogu uticati i na ostvarenea div , ali i na ostv preduzeca kao celine, sto je posebno izrazeno ako se puna tr cena (var i fix tr) ukljucuje u cenu kostanja fin proizvoda. To bi moglo da dovede do visestrukog obracunavanja fix tr i do visokih cena finalnih proiovzoda \n 5. da li tr cene zasnovane na tr omogucavaju ispunjenje ciljeva formiranja tr cnea  - \n \t 1. ukoliko se tr cene zasnivaju na metodi `tr plus` to ce obezbediti ostvarenje prvog cilja, drugog cilja i cetvrtog cilja. Treci nece biti ostvaren \n \t 2. ukoliko se tr cene zasnivaju samo na tr to ce omoguciti ispunjenje treceg cilja formiranja tr cena, ali ce ugroziti ispunjenje prvog i cetvrtog cilja"],
+  ["tr cene zasnovane na oportunitetnim tr", "tr cena = marg tr + oportunitetni tr \n op tr predstavljuju prosecni kontribucioni dobitak"],
+  ["dve situacije pirlikom primene tr cena zasnovanih na oportunitetnim tr", "1. potpuno koriscenje kapaciteta - div prodavac mora da odustane od prodaje dela pr na ekst trz kako bi ih prodala na internom tr. Tr cena je jednaka trz ceni \n 2. nepotpuno koriscenje kapaciteta -tr cena je jednaka prosecnim var tr"],
+  ["u vezi sa primenom tr cena zasnovanih na oportunitetnim tr postoji 3 problema", "1. savrseno konk trz u praksi retko postoje, dok na nesavrseno konkurentnim trz trzisne cene variraju sto otezava utvrdjivanje oportunitentnih tr \n 2. proizvodi sa specificnim karakteristikama cesto zahtevaju dodatna ulaganja u opremu, dizajn sto takodje otezava utvrdjivanje oportunitetnih tr \n 3. nerelano merenje performani i ugroazavanje autonomije div menadzera, odnosno primena ovog metoda ugroazava ostvarenje prvgo i cetvrtog cilja formiranja tr cena"],
+  ["razlozi za formiranjem sporazumnih transfernih cena", "1. raspodela prihoda u cijem stvaranju je ucestvovalo vise divizija zahteva kompromisno resenje \n 2. sporazumne tran cene podrzavaju autonomiju div men i povecavaju odgovornost za ostvarene rez \n 3. div men poseduju bolje info o troskovima, proivzodima i mogucnostima za njihovu prodaju na eksternom trz \n 4. mesanje centralne uprave u formiranje transfersnih cena predstavlja cest izgovor div men za lose rez \n 5. ucesce u formiranju tr cena pozitivno utice na motivacuiju div men"],
+  ["karakteristike sporazumnih tr cena", "1. ne moze se utvrditi tacna visina tr cene, s obzirom da nastaju kao rez pregovora, \n 2. moze se predvideti okvir ponasanja pregovaraca odnosno raspon prihvatljivih cena za obe divizije, koji je odredjen: \n \t 1. donjim limitom tr cene koji je odredjen njenom prihvatljivoscu za div prodavca-> marginalni tr iv prodavca pri internoj razmeni + oportunitetni, \n \t 2. gornjim limitom tr cena koji je odrejen njenom prihvatljivscu za div kupca -> nabavna cena za div kupca na ekst trz"],
+  ["problemi koji nastaju u vezi sa primenom sporazumnih tr cena", "1. rezultati div ce biti odredjeni i vestinom pregovaraca sto moze ugroziti njihvou realnost \n 2. pregovaraci se mogu nalaziti u razlicitoj pregovaracjkoj poziciji \n 3. cvrste preg pozicije mogu dovesti do konflikata izmedju divizija koji zahtevaju mesanje upravljackog vrha \n 4. ovaj metod zahtevea dosta vremena prilkom fomrulisanja tr cena, kao i prilikom perispitivanja vec formulisanih tr cena"],
+  ["dvojne tr cene podrazumevaju da divizije koje ucestvuju u internim transferima primenjuju razlicite tr cene", "1. div prodavca obracunava tr cenu primenom metode `tr plus` sto treba da obezbedi realno merenje performansi divizija i njihovih men i oucvanje autonomije div men \n 2. div kupac obracunava tr cenu uz pomoc marginalnih tr, sto obezbedjuje ocuvanje interesa preduzeca kao celine i takodje omogucava ocuvanje autonomije div men"],
+  ["zasto se sistem dvojnih tr cena ne primenjuje u praksi", "iako ispunjava sve ciljeve ne primenjuje se zbog: \n 1. stvara pogresnu sliku o stvarnim rez divizija, s obzirom na to da su oni u zbiru veci od ukupnih dobitaka pred \n 2. eliminisanje dobitaka iz interne razmene moze biti slozeno, pogotova kada veci broj divizija ucestvuje u internim transferima \n 3. dvojne tr cnee ne podsticu div prodavca da smanjuje troskove i na taj nacin poboljsa performanse"],
+  ["administrativne tr cene", "... primenjuju se kada div koje ucestvuju u internim transferima nmg da se dogovore o visini tr cene, odnosno kada nije moguce primeniti nijedan od prethodnih metoda za formiranje tr cena. One su nametnute od strane upr vrha i moraju ih prihvatiti svi ucescni u internoj razmeni."],
+  ["pristupi koji se koriste pirlikom formiranja administrativnih tr cena", "1. nametanje odredjenih pravila od strane upr vrha koja se moraju primenjivati prilikom formiranja tr cena. Osnovni nedostatak ovog pristupa jeste subjektivnost i salbljenje autonomije div men \n 2. fin direktor ili odbor za transferne cene nastoje da utvrde objektivne kriterijume za formiranje tr cena i raspodelu dobitka nastalih na osnovu internih transfera"],
+  ["objasnite internacionalne transferne cene", "odnosi se na poslovne transakcije izmedju filijala jednog preduzeca koja se nalaze u vise razlicitih zemalja. Za internacionalnu perspekitvu karakteristicni su tzv interkompanijski transferi. Interne transferne cene koriste se za vrednovanje intrakompanijskih transfera imzedu div, dok se inrternacionalne tr cene koirste za vrednovanje interkompanijskih transfera izmedju filijala maticne kompainje koje su locirane u vise razlicitih zemalja"],
+  ["primarni cilj koji treba ostvariti prilikom formiranja i primene internacionalih transfernih cena jeste maksimiranje ostvarenja na globalnom nivou."],
+  ["cime je odredjen manevarksi prosto za vojdenje politike internaiconalnih transfernih cena", "odredjen je razlicitom poreskom regulativom u razlicitim zemljama koje odredjuju razlicite poreste stope i poreske olaksice"],
+  ["objasnite princip van dohvata ruke", "... podrazumeva da tr cene koje se koriste prilikom razmene izmedju povezanih pravnih lica moraju da odgovaraju cenama koje se koriste u uporedivim transakcijama izmedju nepovezanih preduzeca. Eventualna razlika imzedju ovako definisnanih tr cena i tr cena koje primenjue odredjena multinacionalna kompanija treba da bude ukljucena u poresku osnovicu."],
+  ["metod uporedivih cena imzedju nepovezanih preduzeca", "tranferna cena = trz cena +- korekcija"],
+  ["metod cene ponovne prodaje", "polazi od prodajene cene po kojoj su proizvodi nabavljeni od povezanih preduzeca ponovo prodati nepovezanim preduzecima, a zatim se takva prodajna cena umanjuje za zaracunatu marzu \n tr cena = cena ponovne prodaje/1 + narza +- korekcije"],
+  ["metod troskovi plus", "polazi od odgovarajuce troskovne osnove na koju se zaracunava profitna marza koja je uporediva sa marzama koje se koriste u slicnim transakcijama sa nepovezanim preduzecima \n tr cena = troskovi + marza +- korekcije"],
+  ["koji su metodi formiranja internacionalinih tr cena", "1. metod uporedivih cena izmedju nepoveznih pred \n 2. metod cene ponovne prodje \n 3. metod troskovi plus"]
 ]
 
 
